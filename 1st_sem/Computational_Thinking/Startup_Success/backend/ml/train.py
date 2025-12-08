@@ -11,14 +11,14 @@ from LogisticRegression import LogisticRegressionModel
 def main():
     # Paths
     here = os.path.dirname(os.path.abspath(__file__))
-    data_path = os.path.abspath(os.path.join(here, "..", "app", "data", "startup_failure_prediction.csv"))
+    data_path = os.path.abspath(os.path.join(here, "..", "app", "data", "startup_growth_processed.csv"))
     repo_root = os.path.abspath(os.path.join(here, "..", ".."))
     save_path = os.path.join(repo_root, "model.pt")
 
     # Load dataset
     df = pd.read_csv(data_path)
 
-    target_col = "Startup_Status"
+    target_col = "Profitable"
     drop_cols = [c for c in ["Startup_Name"] if c in df.columns]
 
     X_df = df.drop(columns=[target_col] + drop_cols)

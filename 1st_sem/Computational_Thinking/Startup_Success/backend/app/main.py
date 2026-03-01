@@ -1,5 +1,7 @@
 from fastapi import FastAPI
-from backend.app.endpoints import router
+from backend.app.routes_auth import router as auth_router
+from backend.app.routes_ml import router as ml_router
+from backend.app.routes_metrics import router as metrics_router
 from fastapi.middleware.cors import CORSMiddleware
 
 origins = [
@@ -9,7 +11,9 @@ origins = [
 
 app = FastAPI(title="Startup Success Prediction API")
 
-app.include_router(router, prefix="/ml", tags=["Startup Prediction"])
+app.include_router(metrics_router, prefix="/ml")
+app.include_router(auth_router, prefix="/ml")
+app.include_router(ml_router, prefix="/ml")
 
 app.add_middleware(
     CORSMiddleware,

@@ -1,32 +1,22 @@
-from backend.ml.LogisticRegression import LogisticRegressionModel
-
 from fastapi import APIRouter, HTTPException, Query
+from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
-import torch
-import pandas as pd
-import os
 from typing import List, Optional
+from io import BytesIO
+import os
 
+import pandas as pd
+import matplotlib
+
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
 
 router = APIRouter()
 
+HERE = os.path.dirname(os.path.abspath(__file__))
 
-# --- Define input schema ---
-class StartupInput(BaseModel):
-    Industry: str
-    Startup_Age: float
-    Funding_Amount: float
-    Number_of_Founders: float
-    Founder_Experience: float
-    Employees_Count: float
-    Revenue: float
-    Burn_Rate: float
-    Market_Size: str
-    Business_Model: str
-    Product_Uniqueness_Score: float
-    Customer_Retention_Rate: float
-    Marketing_Expense: float
 
+# --------- Metrics visualization ----------
 
 class TrendSummary(BaseModel):
     domain: str
@@ -36,16 +26,9 @@ class TrendSummary(BaseModel):
     volatility: float
 
 
-# Global model and column variables
-model = None
-training_columns = None
-
-
-# --- Trend metrics helpers ---
 def load_trend_df() -> pd.DataFrame:
     """Load the trends summary CSV."""
-    here = os.path.dirname(os.path.abspath(__file__))
-    csv_path = os.path.join(here, "data", "trends_summary_metrics.csv")
+    csv_path = os.path.join(HERE, "data", "trends_summary_metrics.csv")
 
     if not os.path.exists(csv_path):
         raise HTTPException(status_code=404, detail="trends_summary_metrics.csv not found")
@@ -88,73 +71,6 @@ def sort_metrics(df: pd.DataFrame, sort_by: str, order: str) -> pd.DataFrame:
     if order not in {"asc", "desc"}:
         raise HTTPException(status_code=400, detail="order must be 'asc' or 'desc'")
     return df.sort_values(column_map[sort_by], ascending=(order == "asc"))
-
-
-@router.on_event("startup")
-def load_model_once():
-    """Load model and column schema at startup."""
-    global model, training_columns
-
-    here = os.path.dirname(os.path.abspath(__file__))
-    repo_root = os.path.abspath(os.path.join(here, "..", "app", "data", "models"))
-    model_path = os.path.join(repo_root, "model.pt")
-    data_path = os.path.abspath(os.path.join(here, "..", "app", "data", "startup_growth_processed.csv"))
-
-    # Load reference data for column schema
-    df = pd.read_csv(data_path)
-    target_col = "Profitable"
-    drop_cols = [c for c in ["Startup_Name"] if c in df.columns]
-    X_df = df.drop(columns=[target_col] + drop_cols)
-    X_df = pd.get_dummies(X_df, drop_first=True)
-    X_df = X_df.apply(pd.to_numeric, errors="coerce").fillna(0)
-    training_columns = X_df.columns.tolist()
-
-    # Load trained model
-    input_dim = len(training_columns)
-    model = LogisticRegressionModel(input_dim)
-    model.load_state_dict(torch.load(model_path, map_location=torch.device("cpu")))
-    model.eval()
-
-    print("Model and schema loaded successfully.")
-
-
-@router.post("/predict")
-def predict_success(input_data: StartupInput):
-    """Predict startup success probability and identify key influencing factors."""
-    if model is None or training_columns is None:
-        return {"error": "Model not loaded. Please ensure the startup event is triggered."}
-
-    # Convert input to DataFrame
-    new_df = pd.DataFrame([input_data.dict()])
-
-    # Apply same preprocessing as training
-    new_df = pd.get_dummies(new_df, drop_first=True)
-    new_df = new_df.reindex(columns=training_columns, fill_value=0)
-    new_df = new_df.apply(pd.to_numeric, errors="coerce").fillna(0)
-
-    # Convert to tensor
-    x_new = torch.tensor(new_df.to_numpy(dtype=float), dtype=torch.float32)
-
-    # Predict
-    with torch.no_grad():
-        output = model(x_new)
-        prob = output.item()
-
-    # Extract coefficients
-    weights = model.linear.weight.detach().cpu().flatten()      # stays in torch land
-    coef_values = weights.tolist()                               # pure Python list
-    coef = pd.Series(coef_values, index=training_columns, dtype=float)
-
-    positive_factor = coef.idxmax()
-    negative_factor = coef.idxmin()
-    predicted_class = int(prob >= 0.5)
-
-    return {
-        "predicted_probability": round(prob, 4),
-        "predicted_class": "Success" if predicted_class == 1 else "Failure",
-        "positive_factor": positive_factor,
-        "negative_factor": negative_factor
-    }
 
 
 @router.get("/trend-metrics", response_model=List[TrendSummary])
@@ -208,3 +124,39 @@ def sort_trend_metrics(
     df = filter_metrics(df, domain=domain)
     df = sort_metrics(df, sort_by=sort_by, order=order)
     return df.to_dict(orient="records")
+
+
+@router.get("/trend-metrics/recent-6m-slope-plot")
+def recent_six_month_slope_plot(
+    top_n: int = Query(12, ge=1, le=30, description="How many domains to plot"),
+):
+    """Generate a PNG plot of the strongest recent 6-month slopes."""
+    df = load_trend_df()
+    df = sort_metrics(df, sort_by="recent_6m_slope", order="desc").head(top_n)
+
+    fig, ax = plt.subplots(figsize=(8, 5))
+    bars = ax.barh(df["domain"], df["recent_6m_slope"], color="#2563eb")
+    ax.invert_yaxis()
+    ax.set_xlabel("Recent 6M Slope")
+    ax.set_ylabel("Domain")
+    ax.set_title(f"Top {len(df)} domains by recent 6M slope")
+    ax.grid(axis="x", linestyle="--", linewidth=0.5, alpha=0.6)
+
+    for bar in bars:
+        width = bar.get_width()
+        ax.text(
+            width + 0.1,
+            bar.get_y() + bar.get_height() / 2,
+            f"{width:.1f}",
+            va="center",
+            fontsize=8,
+            color="#0f172a",
+        )
+
+    fig.tight_layout()
+    buffer = BytesIO()
+    fig.savefig(buffer, format="png", dpi=150, bbox_inches="tight")
+    plt.close(fig)
+    buffer.seek(0)
+
+    return StreamingResponse(buffer, media_type="image/png")

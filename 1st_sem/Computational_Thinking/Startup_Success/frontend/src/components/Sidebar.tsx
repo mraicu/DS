@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { ChangeEvent, useRef, useState } from "react";
+import { AuthSession } from "../types/auth";
 
 type NavItem = {
   label: string;
@@ -8,9 +9,11 @@ type NavItem = {
 
 type SidebarProps = {
   items: NavItem[];
+  session: AuthSession | null;
+  onLogout?: () => void;
 };
 
-const Sidebar = ({ items }: SidebarProps) => {
+const Sidebar = ({ items, session, onLogout }: SidebarProps) => {
   const fileInputRef = useRef<HTMLInputElement | null>(null);
   const [selectedFile, setSelectedFile] = useState<string | null>(null);
 
@@ -61,6 +64,30 @@ const Sidebar = ({ items }: SidebarProps) => {
         <span className="upload-hint">
           {selectedFile ? `Selected: ${selectedFile}` : "CSV files up to 5MB"}
         </span>
+      </div>
+      <div className="sidebar__session">
+        {session ? (
+          <>
+            <div className="sidebar__user">
+              <span className="sidebar__avatar">
+                {session.username.slice(0, 1).toUpperCase()}
+              </span>
+              <div>
+                <div className="sidebar__username">{session.username}</div>
+                <div className="sidebar__status">Signed in</div>
+              </div>
+            </div>
+            <button
+              type="button"
+              className="logout-button"
+              onClick={() => onLogout?.()}
+            >
+              Sign out
+            </button>
+          </>
+        ) : (
+          <p className="sidebar__cta">Sign in to access predictions.</p>
+        )}
       </div>
     </aside>
   );

@@ -1,0 +1,3501 @@
+region,geoCode,domain_interest,domain
+Afghanistan,AF,0,Gaming
+Albania,AL,0,Gaming
+Algeria,DZ,100,Gaming
+American Samoa,AS,0,Gaming
+Andorra,AD,0,Gaming
+Angola,AO,0,Gaming
+Anguilla,AI,0,Gaming
+Antarctica,AQ,0,Gaming
+Antigua & Barbuda,AG,0,Gaming
+Argentina,AR,100,Gaming
+Armenia,AM,0,Gaming
+Aruba,AW,0,Gaming
+Australia,AU,86,Gaming
+Austria,AT,100,Gaming
+Azerbaijan,AZ,0,Gaming
+Bahamas,BS,0,Gaming
+Bahrain,BH,0,Gaming
+Bangladesh,BD,100,Gaming
+Barbados,BB,0,Gaming
+Belarus,BY,0,Gaming
+Belgium,BE,100,Gaming
+Belize,BZ,0,Gaming
+Benin,BJ,0,Gaming
+Bermuda,BM,0,Gaming
+Bhutan,BT,0,Gaming
+Bolivia,BO,0,Gaming
+Bosnia & Herzegovina,BA,100,Gaming
+Botswana,BW,0,Gaming
+Bouvet Island,BV,0,Gaming
+Brazil,BR,50,Gaming
+British Indian Ocean Territory,IO,0,Gaming
+British Virgin Islands,VG,0,Gaming
+Brunei,BN,0,Gaming
+Bulgaria,BG,100,Gaming
+Burkina Faso,BF,0,Gaming
+Burundi,BI,0,Gaming
+Cambodia,KH,100,Gaming
+Cameroon,CM,0,Gaming
+Canada,CA,81,Gaming
+Cape Verde,CV,0,Gaming
+Caribbean Netherlands,BQ,0,Gaming
+Cayman Islands,KY,0,Gaming
+Central African Republic,CF,0,Gaming
+Chad,TD,0,Gaming
+Chile,CL,66,Gaming
+China,CN,0,Gaming
+Christmas Island,CX,0,Gaming
+Cocos (Keeling) Islands,CC,0,Gaming
+Colombia,CO,100,Gaming
+Comoros,KM,0,Gaming
+Congo - Brazzaville,CG,0,Gaming
+Congo - Kinshasa,CD,0,Gaming
+Cook Islands,CK,0,Gaming
+Costa Rica,CR,0,Gaming
+Croatia,HR,100,Gaming
+Cuba,CU,0,Gaming
+Curaçao,CW,0,Gaming
+Cyprus,CY,58,Gaming
+Czechia,CZ,100,Gaming
+Côte d’Ivoire,CI,0,Gaming
+Denmark,DK,100,Gaming
+Djibouti,DJ,0,Gaming
+Dominica,DM,0,Gaming
+Dominican Republic,DO,0,Gaming
+Ecuador,EC,0,Gaming
+Egypt,EG,100,Gaming
+El Salvador,SV,0,Gaming
+Equatorial Guinea,GQ,0,Gaming
+Eritrea,ER,0,Gaming
+Estonia,EE,100,Gaming
+Eswatini,SZ,0,Gaming
+Ethiopia,ET,0,Gaming
+Falkland Islands (Islas Malvinas),FK,0,Gaming
+Faroe Islands,FO,0,Gaming
+Fiji,FJ,0,Gaming
+Finland,FI,85,Gaming
+France,FR,87,Gaming
+French Guiana,GF,0,Gaming
+French Polynesia,PF,0,Gaming
+French Southern Territories,TF,0,Gaming
+Gabon,GA,0,Gaming
+Gambia,GM,0,Gaming
+Georgia,GE,100,Gaming
+Germany,DE,87,Gaming
+Ghana,GH,100,Gaming
+Gibraltar,GI,0,Gaming
+Greece,GR,100,Gaming
+Greenland,GL,0,Gaming
+Grenada,GD,0,Gaming
+Guadeloupe,GP,0,Gaming
+Guam,GU,0,Gaming
+Guatemala,GT,0,Gaming
+Guernsey,GG,0,Gaming
+Guinea,GN,0,Gaming
+Guinea-Bissau,GW,0,Gaming
+Guyana,GY,0,Gaming
+Haiti,HT,0,Gaming
+Heard & McDonald Islands,HM,0,Gaming
+Honduras,HN,0,Gaming
+Hong Kong,HK,100,Gaming
+Hungary,HU,100,Gaming
+Iceland,IS,0,Gaming
+India,IN,78,Gaming
+Indonesia,ID,82,Gaming
+Iran,IR,100,Gaming
+Iraq,IQ,100,Gaming
+Ireland,IE,85,Gaming
+Isle of Man,IM,0,Gaming
+Israel,IL,84,Gaming
+Italy,IT,86,Gaming
+Jamaica,JM,0,Gaming
+Japan,JP,76,Gaming
+Jersey,JE,0,Gaming
+Jordan,JO,100,Gaming
+Kazakhstan,KZ,100,Gaming
+Kenya,KE,100,Gaming
+Kiribati,KI,0,Gaming
+Kosovo,XK,0,Gaming
+Kuwait,KW,100,Gaming
+Kyrgyzstan,KG,0,Gaming
+Laos,LA,0,Gaming
+Latvia,LV,100,Gaming
+Lebanon,LB,100,Gaming
+Lesotho,LS,0,Gaming
+Liberia,LR,100,Gaming
+Libya,LY,0,Gaming
+Liechtenstein,LI,0,Gaming
+Lithuania,LT,71,Gaming
+Luxembourg,LU,100,Gaming
+Macao,MO,0,Gaming
+Madagascar,MG,0,Gaming
+Malawi,MW,100,Gaming
+Malaysia,MY,100,Gaming
+Maldives,MV,0,Gaming
+Mali,ML,0,Gaming
+Malta,MT,100,Gaming
+Marshall Islands,MH,0,Gaming
+Martinique,MQ,0,Gaming
+Mauritania,MR,0,Gaming
+Mauritius,MU,0,Gaming
+Mayotte,YT,0,Gaming
+Mexico,MX,86,Gaming
+Micronesia,FM,0,Gaming
+Moldova,MD,0,Gaming
+Monaco,MC,0,Gaming
+Mongolia,MN,0,Gaming
+Montenegro,ME,0,Gaming
+Montserrat,MS,0,Gaming
+Morocco,MA,100,Gaming
+Mozambique,MZ,100,Gaming
+Myanmar (Burma),MM,0,Gaming
+Namibia,NA,0,Gaming
+Nauru,NR,0,Gaming
+Nepal,NP,100,Gaming
+Netherlands,NL,90,Gaming
+New Caledonia,NC,0,Gaming
+New Zealand,NZ,87,Gaming
+Nicaragua,NI,0,Gaming
+Niger,NE,0,Gaming
+Nigeria,NG,78,Gaming
+Niue,NU,0,Gaming
+Norfolk Island,NF,0,Gaming
+North Korea,KP,0,Gaming
+North Macedonia,MK,0,Gaming
+Northern Mariana Islands,MP,0,Gaming
+Norway,NO,100,Gaming
+Oman,OM,0,Gaming
+Pakistan,PK,89,Gaming
+Palau,PW,0,Gaming
+Palestine,PS,0,Gaming
+Panama,PA,0,Gaming
+Papua New Guinea,PG,0,Gaming
+Paraguay,PY,0,Gaming
+Peru,PE,100,Gaming
+Philippines,PH,88,Gaming
+Pitcairn Islands,PN,0,Gaming
+Poland,PL,92,Gaming
+Portugal,PT,83,Gaming
+Puerto Rico,PR,0,Gaming
+Qatar,QA,100,Gaming
+Romania,RO,100,Gaming
+Russia,RU,85,Gaming
+Rwanda,RW,0,Gaming
+Réunion,RE,0,Gaming
+Samoa,WS,0,Gaming
+San Marino,SM,0,Gaming
+Saudi Arabia,SA,100,Gaming
+Senegal,SN,0,Gaming
+Serbia,RS,100,Gaming
+Seychelles,SC,0,Gaming
+Sierra Leone,SL,0,Gaming
+Singapore,SG,91,Gaming
+Sint Maarten,SX,0,Gaming
+Slovakia,SK,100,Gaming
+Slovenia,SI,100,Gaming
+Solomon Islands,SB,0,Gaming
+Somalia,SO,0,Gaming
+South Africa,ZA,100,Gaming
+South Georgia & South Sandwich Islands,GS,0,Gaming
+South Korea,KR,84,Gaming
+South Sudan,SS,0,Gaming
+Spain,ES,89,Gaming
+Sri Lanka,LK,100,Gaming
+St. Barthélemy,BL,0,Gaming
+St. Helena,SH,100,Gaming
+St. Kitts & Nevis,KN,0,Gaming
+St. Lucia,LC,0,Gaming
+St. Martin,MF,0,Gaming
+St. Pierre & Miquelon,PM,0,Gaming
+St. Vincent & Grenadines,VC,0,Gaming
+Sudan,SD,0,Gaming
+Suriname,SR,0,Gaming
+Svalbard & Jan Mayen,SJ,0,Gaming
+Sweden,SE,94,Gaming
+Switzerland,CH,100,Gaming
+Syria,SY,0,Gaming
+São Tomé & Príncipe,ST,0,Gaming
+Taiwan,TW,100,Gaming
+Tajikistan,TJ,0,Gaming
+Tanzania,TZ,0,Gaming
+Thailand,TH,100,Gaming
+Timor-Leste,TL,0,Gaming
+Togo,TG,0,Gaming
+Tokelau,TK,0,Gaming
+Tonga,TO,0,Gaming
+Trinidad & Tobago,TT,0,Gaming
+Tunisia,TN,69,Gaming
+Turkmenistan,TM,0,Gaming
+Turks & Caicos Islands,TC,0,Gaming
+Tuvalu,TV,0,Gaming
+Türkiye,TR,83,Gaming
+U.S. Outlying Islands,UM,0,Gaming
+U.S. Virgin Islands,VI,0,Gaming
+Uganda,UG,0,Gaming
+Ukraine,UA,80,Gaming
+United Arab Emirates,AE,100,Gaming
+United Kingdom,GB,87,Gaming
+United States,US,77,Gaming
+Uruguay,UY,0,Gaming
+Uzbekistan,UZ,0,Gaming
+Vanuatu,VU,0,Gaming
+Vatican City,VA,0,Gaming
+Venezuela,VE,0,Gaming
+Vietnam,VN,89,Gaming
+Wallis & Futuna,WF,0,Gaming
+Western Sahara,EH,0,Gaming
+Yemen,YE,0,Gaming
+Zambia,ZM,0,Gaming
+Zimbabwe,ZW,0,Gaming
+Åland Islands,AX,0,Gaming
+Afghanistan,AF,0,Cybersecurity
+Albania,AL,100,Cybersecurity
+Algeria,DZ,100,Cybersecurity
+American Samoa,AS,0,Cybersecurity
+Andorra,AD,0,Cybersecurity
+Angola,AO,0,Cybersecurity
+Anguilla,AI,0,Cybersecurity
+Antarctica,AQ,0,Cybersecurity
+Antigua & Barbuda,AG,0,Cybersecurity
+Argentina,AR,100,Cybersecurity
+Armenia,AM,100,Cybersecurity
+Aruba,AW,0,Cybersecurity
+Australia,AU,87,Cybersecurity
+Austria,AT,91,Cybersecurity
+Azerbaijan,AZ,100,Cybersecurity
+Bahamas,BS,0,Cybersecurity
+Bahrain,BH,100,Cybersecurity
+Bangladesh,BD,79,Cybersecurity
+Barbados,BB,0,Cybersecurity
+Belarus,BY,100,Cybersecurity
+Belgium,BE,84,Cybersecurity
+Belize,BZ,0,Cybersecurity
+Benin,BJ,0,Cybersecurity
+Bermuda,BM,0,Cybersecurity
+Bhutan,BT,0,Cybersecurity
+Bolivia,BO,100,Cybersecurity
+Bosnia & Herzegovina,BA,100,Cybersecurity
+Botswana,BW,100,Cybersecurity
+Bouvet Island,BV,0,Cybersecurity
+Brazil,BR,82,Cybersecurity
+British Indian Ocean Territory,IO,0,Cybersecurity
+British Virgin Islands,VG,0,Cybersecurity
+Brunei,BN,0,Cybersecurity
+Bulgaria,BG,100,Cybersecurity
+Burkina Faso,BF,0,Cybersecurity
+Burundi,BI,0,Cybersecurity
+Cambodia,KH,100,Cybersecurity
+Cameroon,CM,0,Cybersecurity
+Canada,CA,87,Cybersecurity
+Cape Verde,CV,0,Cybersecurity
+Caribbean Netherlands,BQ,0,Cybersecurity
+Cayman Islands,KY,0,Cybersecurity
+Central African Republic,CF,0,Cybersecurity
+Chad,TD,0,Cybersecurity
+Chile,CL,100,Cybersecurity
+China,CN,100,Cybersecurity
+Christmas Island,CX,0,Cybersecurity
+Cocos (Keeling) Islands,CC,0,Cybersecurity
+Colombia,CO,81,Cybersecurity
+Comoros,KM,0,Cybersecurity
+Congo - Brazzaville,CG,0,Cybersecurity
+Congo - Kinshasa,CD,0,Cybersecurity
+Cook Islands,CK,0,Cybersecurity
+Costa Rica,CR,100,Cybersecurity
+Croatia,HR,100,Cybersecurity
+Cuba,CU,0,Cybersecurity
+Curaçao,CW,0,Cybersecurity
+Cyprus,CY,100,Cybersecurity
+Czechia,CZ,100,Cybersecurity
+Côte d’Ivoire,CI,0,Cybersecurity
+Denmark,DK,93,Cybersecurity
+Djibouti,DJ,0,Cybersecurity
+Dominica,DM,0,Cybersecurity
+Dominican Republic,DO,100,Cybersecurity
+Ecuador,EC,100,Cybersecurity
+Egypt,EG,83,Cybersecurity
+El Salvador,SV,0,Cybersecurity
+Equatorial Guinea,GQ,0,Cybersecurity
+Eritrea,ER,0,Cybersecurity
+Estonia,EE,100,Cybersecurity
+Eswatini,SZ,0,Cybersecurity
+Ethiopia,ET,100,Cybersecurity
+Falkland Islands (Islas Malvinas),FK,0,Cybersecurity
+Faroe Islands,FO,0,Cybersecurity
+Fiji,FJ,0,Cybersecurity
+Finland,FI,100,Cybersecurity
+France,FR,75,Cybersecurity
+French Guiana,GF,0,Cybersecurity
+French Polynesia,PF,0,Cybersecurity
+French Southern Territories,TF,0,Cybersecurity
+Gabon,GA,0,Cybersecurity
+Gambia,GM,0,Cybersecurity
+Georgia,GE,100,Cybersecurity
+Germany,DE,82,Cybersecurity
+Ghana,GH,100,Cybersecurity
+Gibraltar,GI,0,Cybersecurity
+Greece,GR,81,Cybersecurity
+Greenland,GL,0,Cybersecurity
+Grenada,GD,0,Cybersecurity
+Guadeloupe,GP,0,Cybersecurity
+Guam,GU,0,Cybersecurity
+Guatemala,GT,0,Cybersecurity
+Guernsey,GG,0,Cybersecurity
+Guinea,GN,0,Cybersecurity
+Guinea-Bissau,GW,0,Cybersecurity
+Guyana,GY,0,Cybersecurity
+Haiti,HT,0,Cybersecurity
+Heard & McDonald Islands,HM,0,Cybersecurity
+Honduras,HN,0,Cybersecurity
+Hong Kong,HK,85,Cybersecurity
+Hungary,HU,100,Cybersecurity
+Iceland,IS,0,Cybersecurity
+India,IN,76,Cybersecurity
+Indonesia,ID,82,Cybersecurity
+Iran,IR,100,Cybersecurity
+Iraq,IQ,100,Cybersecurity
+Ireland,IE,77,Cybersecurity
+Isle of Man,IM,0,Cybersecurity
+Israel,IL,78,Cybersecurity
+Italy,IT,72,Cybersecurity
+Jamaica,JM,100,Cybersecurity
+Japan,JP,85,Cybersecurity
+Jersey,JE,0,Cybersecurity
+Jordan,JO,100,Cybersecurity
+Kazakhstan,KZ,100,Cybersecurity
+Kenya,KE,81,Cybersecurity
+Kiribati,KI,0,Cybersecurity
+Kosovo,XK,0,Cybersecurity
+Kuwait,KW,100,Cybersecurity
+Kyrgyzstan,KG,0,Cybersecurity
+Laos,LA,0,Cybersecurity
+Latvia,LV,100,Cybersecurity
+Lebanon,LB,100,Cybersecurity
+Lesotho,LS,0,Cybersecurity
+Liberia,LR,0,Cybersecurity
+Libya,LY,0,Cybersecurity
+Liechtenstein,LI,0,Cybersecurity
+Lithuania,LT,100,Cybersecurity
+Luxembourg,LU,100,Cybersecurity
+Macao,MO,0,Cybersecurity
+Madagascar,MG,0,Cybersecurity
+Malawi,MW,100,Cybersecurity
+Malaysia,MY,84,Cybersecurity
+Maldives,MV,0,Cybersecurity
+Mali,ML,0,Cybersecurity
+Malta,MT,0,Cybersecurity
+Marshall Islands,MH,0,Cybersecurity
+Martinique,MQ,0,Cybersecurity
+Mauritania,MR,0,Cybersecurity
+Mauritius,MU,0,Cybersecurity
+Mayotte,YT,0,Cybersecurity
+Mexico,MX,87,Cybersecurity
+Micronesia,FM,0,Cybersecurity
+Moldova,MD,0,Cybersecurity
+Monaco,MC,100,Cybersecurity
+Mongolia,MN,0,Cybersecurity
+Montenegro,ME,100,Cybersecurity
+Montserrat,MS,0,Cybersecurity
+Morocco,MA,72,Cybersecurity
+Mozambique,MZ,0,Cybersecurity
+Myanmar (Burma),MM,100,Cybersecurity
+Namibia,NA,100,Cybersecurity
+Nauru,NR,0,Cybersecurity
+Nepal,NP,83,Cybersecurity
+Netherlands,NL,83,Cybersecurity
+New Caledonia,NC,0,Cybersecurity
+New Zealand,NZ,94,Cybersecurity
+Nicaragua,NI,0,Cybersecurity
+Niger,NE,0,Cybersecurity
+Nigeria,NG,76,Cybersecurity
+Niue,NU,0,Cybersecurity
+Norfolk Island,NF,0,Cybersecurity
+North Korea,KP,0,Cybersecurity
+North Macedonia,MK,100,Cybersecurity
+Northern Mariana Islands,MP,0,Cybersecurity
+Norway,NO,100,Cybersecurity
+Oman,OM,100,Cybersecurity
+Pakistan,PK,80,Cybersecurity
+Palau,PW,0,Cybersecurity
+Palestine,PS,100,Cybersecurity
+Panama,PA,100,Cybersecurity
+Papua New Guinea,PG,100,Cybersecurity
+Paraguay,PY,0,Cybersecurity
+Peru,PE,100,Cybersecurity
+Philippines,PH,91,Cybersecurity
+Pitcairn Islands,PN,0,Cybersecurity
+Poland,PL,85,Cybersecurity
+Portugal,PT,83,Cybersecurity
+Puerto Rico,PR,100,Cybersecurity
+Qatar,QA,100,Cybersecurity
+Romania,RO,87,Cybersecurity
+Russia,RU,89,Cybersecurity
+Rwanda,RW,100,Cybersecurity
+Réunion,RE,0,Cybersecurity
+Samoa,WS,0,Cybersecurity
+San Marino,SM,0,Cybersecurity
+Saudi Arabia,SA,71,Cybersecurity
+Senegal,SN,0,Cybersecurity
+Serbia,RS,100,Cybersecurity
+Seychelles,SC,0,Cybersecurity
+Sierra Leone,SL,0,Cybersecurity
+Singapore,SG,74,Cybersecurity
+Sint Maarten,SX,0,Cybersecurity
+Slovakia,SK,100,Cybersecurity
+Slovenia,SI,100,Cybersecurity
+Solomon Islands,SB,0,Cybersecurity
+Somalia,SO,0,Cybersecurity
+South Africa,ZA,94,Cybersecurity
+South Georgia & South Sandwich Islands,GS,0,Cybersecurity
+South Korea,KR,89,Cybersecurity
+South Sudan,SS,0,Cybersecurity
+Spain,ES,81,Cybersecurity
+Sri Lanka,LK,84,Cybersecurity
+St. Barthélemy,BL,0,Cybersecurity
+St. Helena,SH,100,Cybersecurity
+St. Kitts & Nevis,KN,0,Cybersecurity
+St. Lucia,LC,0,Cybersecurity
+St. Martin,MF,0,Cybersecurity
+St. Pierre & Miquelon,PM,0,Cybersecurity
+St. Vincent & Grenadines,VC,0,Cybersecurity
+Sudan,SD,0,Cybersecurity
+Suriname,SR,0,Cybersecurity
+Svalbard & Jan Mayen,SJ,0,Cybersecurity
+Sweden,SE,92,Cybersecurity
+Switzerland,CH,83,Cybersecurity
+Syria,SY,0,Cybersecurity
+São Tomé & Príncipe,ST,0,Cybersecurity
+Taiwan,TW,82,Cybersecurity
+Tajikistan,TJ,0,Cybersecurity
+Tanzania,TZ,100,Cybersecurity
+Thailand,TH,85,Cybersecurity
+Timor-Leste,TL,0,Cybersecurity
+Togo,TG,0,Cybersecurity
+Tokelau,TK,0,Cybersecurity
+Tonga,TO,0,Cybersecurity
+Trinidad & Tobago,TT,100,Cybersecurity
+Tunisia,TN,77,Cybersecurity
+Turkmenistan,TM,0,Cybersecurity
+Turks & Caicos Islands,TC,0,Cybersecurity
+Tuvalu,TV,0,Cybersecurity
+Türkiye,TR,86,Cybersecurity
+U.S. Outlying Islands,UM,0,Cybersecurity
+U.S. Virgin Islands,VI,0,Cybersecurity
+Uganda,UG,100,Cybersecurity
+Ukraine,UA,81,Cybersecurity
+United Arab Emirates,AE,68,Cybersecurity
+United Kingdom,GB,84,Cybersecurity
+United States,US,85,Cybersecurity
+Uruguay,UY,100,Cybersecurity
+Uzbekistan,UZ,0,Cybersecurity
+Vanuatu,VU,0,Cybersecurity
+Vatican City,VA,0,Cybersecurity
+Venezuela,VE,100,Cybersecurity
+Vietnam,VN,86,Cybersecurity
+Wallis & Futuna,WF,0,Cybersecurity
+Western Sahara,EH,0,Cybersecurity
+Yemen,YE,0,Cybersecurity
+Zambia,ZM,0,Cybersecurity
+Zimbabwe,ZW,100,Cybersecurity
+Åland Islands,AX,0,Cybersecurity
+Afghanistan,AF,0,E-Commerce
+Albania,AL,0,E-Commerce
+Algeria,DZ,61,E-Commerce
+American Samoa,AS,0,E-Commerce
+Andorra,AD,0,E-Commerce
+Angola,AO,0,E-Commerce
+Anguilla,AI,0,E-Commerce
+Antarctica,AQ,0,E-Commerce
+Antigua & Barbuda,AG,0,E-Commerce
+Argentina,AR,80,E-Commerce
+Armenia,AM,0,E-Commerce
+Aruba,AW,0,E-Commerce
+Australia,AU,79,E-Commerce
+Austria,AT,56,E-Commerce
+Azerbaijan,AZ,0,E-Commerce
+Bahamas,BS,0,E-Commerce
+Bahrain,BH,100,E-Commerce
+Bangladesh,BD,68,E-Commerce
+Barbados,BB,0,E-Commerce
+Belarus,BY,0,E-Commerce
+Belgium,BE,63,E-Commerce
+Belize,BZ,0,E-Commerce
+Benin,BJ,0,E-Commerce
+Bermuda,BM,0,E-Commerce
+Bhutan,BT,0,E-Commerce
+Bolivia,BO,0,E-Commerce
+Bosnia & Herzegovina,BA,0,E-Commerce
+Botswana,BW,0,E-Commerce
+Bouvet Island,BV,0,E-Commerce
+Brazil,BR,51,E-Commerce
+British Indian Ocean Territory,IO,0,E-Commerce
+British Virgin Islands,VG,0,E-Commerce
+Brunei,BN,0,E-Commerce
+Bulgaria,BG,100,E-Commerce
+Burkina Faso,BF,0,E-Commerce
+Burundi,BI,0,E-Commerce
+Cambodia,KH,100,E-Commerce
+Cameroon,CM,0,E-Commerce
+Canada,CA,71,E-Commerce
+Cape Verde,CV,0,E-Commerce
+Caribbean Netherlands,BQ,0,E-Commerce
+Cayman Islands,KY,0,E-Commerce
+Central African Republic,CF,0,E-Commerce
+Chad,TD,0,E-Commerce
+Chile,CL,75,E-Commerce
+China,CN,100,E-Commerce
+Christmas Island,CX,0,E-Commerce
+Cocos (Keeling) Islands,CC,0,E-Commerce
+Colombia,CO,68,E-Commerce
+Comoros,KM,0,E-Commerce
+Congo - Brazzaville,CG,0,E-Commerce
+Congo - Kinshasa,CD,0,E-Commerce
+Cook Islands,CK,0,E-Commerce
+Costa Rica,CR,0,E-Commerce
+Croatia,HR,0,E-Commerce
+Cuba,CU,0,E-Commerce
+Curaçao,CW,0,E-Commerce
+Cyprus,CY,0,E-Commerce
+Czechia,CZ,100,E-Commerce
+Côte d’Ivoire,CI,0,E-Commerce
+Denmark,DK,65,E-Commerce
+Djibouti,DJ,0,E-Commerce
+Dominica,DM,0,E-Commerce
+Dominican Republic,DO,100,E-Commerce
+Ecuador,EC,100,E-Commerce
+Egypt,EG,72,E-Commerce
+El Salvador,SV,0,E-Commerce
+Equatorial Guinea,GQ,0,E-Commerce
+Eritrea,ER,0,E-Commerce
+Estonia,EE,0,E-Commerce
+Eswatini,SZ,0,E-Commerce
+Ethiopia,ET,100,E-Commerce
+Falkland Islands (Islas Malvinas),FK,0,E-Commerce
+Faroe Islands,FO,0,E-Commerce
+Fiji,FJ,0,E-Commerce
+Finland,FI,100,E-Commerce
+France,FR,60,E-Commerce
+French Guiana,GF,0,E-Commerce
+French Polynesia,PF,0,E-Commerce
+French Southern Territories,TF,0,E-Commerce
+Gabon,GA,0,E-Commerce
+Gambia,GM,0,E-Commerce
+Georgia,GE,0,E-Commerce
+Germany,DE,63,E-Commerce
+Ghana,GH,53,E-Commerce
+Gibraltar,GI,0,E-Commerce
+Greece,GR,100,E-Commerce
+Greenland,GL,0,E-Commerce
+Grenada,GD,0,E-Commerce
+Guadeloupe,GP,0,E-Commerce
+Guam,GU,0,E-Commerce
+Guatemala,GT,0,E-Commerce
+Guernsey,GG,0,E-Commerce
+Guinea,GN,0,E-Commerce
+Guinea-Bissau,GW,0,E-Commerce
+Guyana,GY,0,E-Commerce
+Haiti,HT,0,E-Commerce
+Heard & McDonald Islands,HM,0,E-Commerce
+Honduras,HN,0,E-Commerce
+Hong Kong,HK,62,E-Commerce
+Hungary,HU,100,E-Commerce
+Iceland,IS,0,E-Commerce
+India,IN,65,E-Commerce
+Indonesia,ID,52,E-Commerce
+Iran,IR,100,E-Commerce
+Iraq,IQ,0,E-Commerce
+Ireland,IE,75,E-Commerce
+Isle of Man,IM,0,E-Commerce
+Israel,IL,84,E-Commerce
+Italy,IT,71,E-Commerce
+Jamaica,JM,0,E-Commerce
+Japan,JP,61,E-Commerce
+Jersey,JE,0,E-Commerce
+Jordan,JO,100,E-Commerce
+Kazakhstan,KZ,100,E-Commerce
+Kenya,KE,64,E-Commerce
+Kiribati,KI,0,E-Commerce
+Kosovo,XK,0,E-Commerce
+Kuwait,KW,0,E-Commerce
+Kyrgyzstan,KG,0,E-Commerce
+Laos,LA,0,E-Commerce
+Latvia,LV,0,E-Commerce
+Lebanon,LB,100,E-Commerce
+Lesotho,LS,0,E-Commerce
+Liberia,LR,0,E-Commerce
+Libya,LY,100,E-Commerce
+Liechtenstein,LI,0,E-Commerce
+Lithuania,LT,0,E-Commerce
+Luxembourg,LU,0,E-Commerce
+Macao,MO,0,E-Commerce
+Madagascar,MG,0,E-Commerce
+Malawi,MW,0,E-Commerce
+Malaysia,MY,65,E-Commerce
+Maldives,MV,0,E-Commerce
+Mali,ML,0,E-Commerce
+Malta,MT,0,E-Commerce
+Marshall Islands,MH,0,E-Commerce
+Martinique,MQ,0,E-Commerce
+Mauritania,MR,0,E-Commerce
+Mauritius,MU,0,E-Commerce
+Mayotte,YT,0,E-Commerce
+Mexico,MX,69,E-Commerce
+Micronesia,FM,0,E-Commerce
+Moldova,MD,0,E-Commerce
+Monaco,MC,0,E-Commerce
+Mongolia,MN,100,E-Commerce
+Montenegro,ME,0,E-Commerce
+Montserrat,MS,0,E-Commerce
+Morocco,MA,62,E-Commerce
+Mozambique,MZ,0,E-Commerce
+Myanmar (Burma),MM,0,E-Commerce
+Namibia,NA,0,E-Commerce
+Nauru,NR,0,E-Commerce
+Nepal,NP,69,E-Commerce
+Netherlands,NL,67,E-Commerce
+New Caledonia,NC,0,E-Commerce
+New Zealand,NZ,100,E-Commerce
+Nicaragua,NI,0,E-Commerce
+Niger,NE,0,E-Commerce
+Nigeria,NG,67,E-Commerce
+Niue,NU,0,E-Commerce
+Norfolk Island,NF,0,E-Commerce
+North Korea,KP,0,E-Commerce
+North Macedonia,MK,100,E-Commerce
+Northern Mariana Islands,MP,0,E-Commerce
+Norway,NO,100,E-Commerce
+Oman,OM,0,E-Commerce
+Pakistan,PK,72,E-Commerce
+Palau,PW,0,E-Commerce
+Palestine,PS,0,E-Commerce
+Panama,PA,0,E-Commerce
+Papua New Guinea,PG,0,E-Commerce
+Paraguay,PY,0,E-Commerce
+Peru,PE,70,E-Commerce
+Philippines,PH,52,E-Commerce
+Pitcairn Islands,PN,0,E-Commerce
+Poland,PL,53,E-Commerce
+Portugal,PT,57,E-Commerce
+Puerto Rico,PR,0,E-Commerce
+Qatar,QA,100,E-Commerce
+Romania,RO,77,E-Commerce
+Russia,RU,63,E-Commerce
+Rwanda,RW,0,E-Commerce
+Réunion,RE,100,E-Commerce
+Samoa,WS,0,E-Commerce
+San Marino,SM,0,E-Commerce
+Saudi Arabia,SA,68,E-Commerce
+Senegal,SN,0,E-Commerce
+Serbia,RS,0,E-Commerce
+Seychelles,SC,0,E-Commerce
+Sierra Leone,SL,0,E-Commerce
+Singapore,SG,72,E-Commerce
+Sint Maarten,SX,0,E-Commerce
+Slovakia,SK,0,E-Commerce
+Slovenia,SI,100,E-Commerce
+Solomon Islands,SB,0,E-Commerce
+Somalia,SO,0,E-Commerce
+South Africa,ZA,65,E-Commerce
+South Georgia & South Sandwich Islands,GS,0,E-Commerce
+South Korea,KR,67,E-Commerce
+South Sudan,SS,0,E-Commerce
+Spain,ES,79,E-Commerce
+Sri Lanka,LK,68,E-Commerce
+St. Barthélemy,BL,0,E-Commerce
+St. Helena,SH,64,E-Commerce
+St. Kitts & Nevis,KN,0,E-Commerce
+St. Lucia,LC,0,E-Commerce
+St. Martin,MF,0,E-Commerce
+St. Pierre & Miquelon,PM,0,E-Commerce
+St. Vincent & Grenadines,VC,0,E-Commerce
+Sudan,SD,0,E-Commerce
+Suriname,SR,0,E-Commerce
+Svalbard & Jan Mayen,SJ,0,E-Commerce
+Sweden,SE,62,E-Commerce
+Switzerland,CH,64,E-Commerce
+Syria,SY,0,E-Commerce
+São Tomé & Príncipe,ST,0,E-Commerce
+Taiwan,TW,60,E-Commerce
+Tajikistan,TJ,0,E-Commerce
+Tanzania,TZ,0,E-Commerce
+Thailand,TH,62,E-Commerce
+Timor-Leste,TL,0,E-Commerce
+Togo,TG,0,E-Commerce
+Tokelau,TK,0,E-Commerce
+Tonga,TO,0,E-Commerce
+Trinidad & Tobago,TT,0,E-Commerce
+Tunisia,TN,51,E-Commerce
+Turkmenistan,TM,0,E-Commerce
+Turks & Caicos Islands,TC,0,E-Commerce
+Tuvalu,TV,0,E-Commerce
+Türkiye,TR,66,E-Commerce
+U.S. Outlying Islands,UM,0,E-Commerce
+U.S. Virgin Islands,VI,0,E-Commerce
+Uganda,UG,0,E-Commerce
+Ukraine,UA,61,E-Commerce
+United Arab Emirates,AE,79,E-Commerce
+United Kingdom,GB,78,E-Commerce
+United States,US,57,E-Commerce
+Uruguay,UY,0,E-Commerce
+Uzbekistan,UZ,0,E-Commerce
+Vanuatu,VU,0,E-Commerce
+Vatican City,VA,0,E-Commerce
+Venezuela,VE,0,E-Commerce
+Vietnam,VN,67,E-Commerce
+Wallis & Futuna,WF,0,E-Commerce
+Western Sahara,EH,0,E-Commerce
+Yemen,YE,0,E-Commerce
+Zambia,ZM,0,E-Commerce
+Zimbabwe,ZW,0,E-Commerce
+Åland Islands,AX,0,E-Commerce
+Afghanistan,AF,100,AI
+Albania,AL,100,AI
+Algeria,DZ,88,AI
+American Samoa,AS,0,AI
+Andorra,AD,0,AI
+Angola,AO,100,AI
+Anguilla,AI,0,AI
+Antarctica,AQ,0,AI
+Antigua & Barbuda,AG,0,AI
+Argentina,AR,96,AI
+Armenia,AM,100,AI
+Aruba,AW,0,AI
+Australia,AU,96,AI
+Austria,AT,96,AI
+Azerbaijan,AZ,100,AI
+Bahamas,BS,0,AI
+Bahrain,BH,100,AI
+Bangladesh,BD,96,AI
+Barbados,BB,0,AI
+Belarus,BY,100,AI
+Belgium,BE,93,AI
+Belize,BZ,0,AI
+Benin,BJ,100,AI
+Bermuda,BM,0,AI
+Bhutan,BT,0,AI
+Bolivia,BO,100,AI
+Bosnia & Herzegovina,BA,100,AI
+Botswana,BW,0,AI
+Bouvet Island,BV,0,AI
+Brazil,BR,95,AI
+British Indian Ocean Territory,IO,0,AI
+British Virgin Islands,VG,0,AI
+Brunei,BN,0,AI
+Bulgaria,BG,100,AI
+Burkina Faso,BF,0,AI
+Burundi,BI,0,AI
+Cambodia,KH,100,AI
+Cameroon,CM,100,AI
+Canada,CA,96,AI
+Cape Verde,CV,0,AI
+Caribbean Netherlands,BQ,0,AI
+Cayman Islands,KY,0,AI
+Central African Republic,CF,0,AI
+Chad,TD,0,AI
+Chile,CL,92,AI
+China,CN,96,AI
+Christmas Island,CX,0,AI
+Cocos (Keeling) Islands,CC,0,AI
+Colombia,CO,95,AI
+Comoros,KM,0,AI
+Congo - Brazzaville,CG,0,AI
+Congo - Kinshasa,CD,100,AI
+Cook Islands,CK,0,AI
+Costa Rica,CR,100,AI
+Croatia,HR,100,AI
+Cuba,CU,0,AI
+Curaçao,CW,0,AI
+Cyprus,CY,100,AI
+Czechia,CZ,100,AI
+Côte d’Ivoire,CI,100,AI
+Denmark,DK,95,AI
+Djibouti,DJ,0,AI
+Dominica,DM,0,AI
+Dominican Republic,DO,100,AI
+Ecuador,EC,100,AI
+Egypt,EG,95,AI
+El Salvador,SV,100,AI
+Equatorial Guinea,GQ,0,AI
+Eritrea,ER,0,AI
+Estonia,EE,100,AI
+Eswatini,SZ,0,AI
+Ethiopia,ET,100,AI
+Falkland Islands (Islas Malvinas),FK,0,AI
+Faroe Islands,FO,0,AI
+Fiji,FJ,0,AI
+Finland,FI,100,AI
+France,FR,95,AI
+French Guiana,GF,0,AI
+French Polynesia,PF,0,AI
+French Southern Territories,TF,0,AI
+Gabon,GA,0,AI
+Gambia,GM,0,AI
+Georgia,GE,100,AI
+Germany,DE,96,AI
+Ghana,GH,100,AI
+Gibraltar,GI,0,AI
+Greece,GR,92,AI
+Greenland,GL,0,AI
+Grenada,GD,0,AI
+Guadeloupe,GP,0,AI
+Guam,GU,0,AI
+Guatemala,GT,100,AI
+Guernsey,GG,0,AI
+Guinea,GN,0,AI
+Guinea-Bissau,GW,0,AI
+Guyana,GY,0,AI
+Haiti,HT,0,AI
+Heard & McDonald Islands,HM,0,AI
+Honduras,HN,100,AI
+Hong Kong,HK,97,AI
+Hungary,HU,100,AI
+Iceland,IS,100,AI
+India,IN,93,AI
+Indonesia,ID,90,AI
+Iran,IR,88,AI
+Iraq,IQ,100,AI
+Ireland,IE,97,AI
+Isle of Man,IM,0,AI
+Israel,IL,98,AI
+Italy,IT,94,AI
+Jamaica,JM,100,AI
+Japan,JP,98,AI
+Jersey,JE,0,AI
+Jordan,JO,100,AI
+Kazakhstan,KZ,100,AI
+Kenya,KE,94,AI
+Kiribati,KI,0,AI
+Kosovo,XK,100,AI
+Kuwait,KW,100,AI
+Kyrgyzstan,KG,100,AI
+Laos,LA,100,AI
+Latvia,LV,100,AI
+Lebanon,LB,100,AI
+Lesotho,LS,0,AI
+Liberia,LR,0,AI
+Libya,LY,0,AI
+Liechtenstein,LI,0,AI
+Lithuania,LT,100,AI
+Luxembourg,LU,100,AI
+Macao,MO,0,AI
+Madagascar,MG,0,AI
+Malawi,MW,0,AI
+Malaysia,MY,92,AI
+Maldives,MV,0,AI
+Mali,ML,0,AI
+Malta,MT,100,AI
+Marshall Islands,MH,0,AI
+Martinique,MQ,0,AI
+Mauritania,MR,0,AI
+Mauritius,MU,100,AI
+Mayotte,YT,0,AI
+Mexico,MX,93,AI
+Micronesia,FM,100,AI
+Moldova,MD,100,AI
+Monaco,MC,0,AI
+Mongolia,MN,100,AI
+Montenegro,ME,100,AI
+Montserrat,MS,0,AI
+Morocco,MA,95,AI
+Mozambique,MZ,0,AI
+Myanmar (Burma),MM,100,AI
+Namibia,NA,0,AI
+Nauru,NR,0,AI
+Nepal,NP,100,AI
+Netherlands,NL,95,AI
+New Caledonia,NC,0,AI
+New Zealand,NZ,100,AI
+Nicaragua,NI,0,AI
+Niger,NE,0,AI
+Nigeria,NG,95,AI
+Niue,NU,0,AI
+Norfolk Island,NF,0,AI
+North Korea,KP,0,AI
+North Macedonia,MK,100,AI
+Northern Mariana Islands,MP,0,AI
+Norway,NO,100,AI
+Oman,OM,100,AI
+Pakistan,PK,96,AI
+Palau,PW,0,AI
+Palestine,PS,100,AI
+Panama,PA,100,AI
+Papua New Guinea,PG,0,AI
+Paraguay,PY,100,AI
+Peru,PE,94,AI
+Philippines,PH,89,AI
+Pitcairn Islands,PN,0,AI
+Poland,PL,97,AI
+Portugal,PT,94,AI
+Puerto Rico,PR,100,AI
+Qatar,QA,100,AI
+Romania,RO,95,AI
+Russia,RU,94,AI
+Rwanda,RW,100,AI
+Réunion,RE,0,AI
+Samoa,WS,0,AI
+San Marino,SM,0,AI
+Saudi Arabia,SA,96,AI
+Senegal,SN,100,AI
+Serbia,RS,100,AI
+Seychelles,SC,0,AI
+Sierra Leone,SL,0,AI
+Singapore,SG,96,AI
+Sint Maarten,SX,0,AI
+Slovakia,SK,100,AI
+Slovenia,SI,100,AI
+Solomon Islands,SB,0,AI
+Somalia,SO,0,AI
+South Africa,ZA,95,AI
+South Georgia & South Sandwich Islands,GS,0,AI
+South Korea,KR,96,AI
+South Sudan,SS,0,AI
+Spain,ES,95,AI
+Sri Lanka,LK,100,AI
+St. Barthélemy,BL,0,AI
+St. Helena,SH,92,AI
+St. Kitts & Nevis,KN,0,AI
+St. Lucia,LC,0,AI
+St. Martin,MF,0,AI
+St. Pierre & Miquelon,PM,0,AI
+St. Vincent & Grenadines,VC,0,AI
+Sudan,SD,0,AI
+Suriname,SR,0,AI
+Svalbard & Jan Mayen,SJ,0,AI
+Sweden,SE,97,AI
+Switzerland,CH,96,AI
+Syria,SY,0,AI
+São Tomé & Príncipe,ST,0,AI
+Taiwan,TW,98,AI
+Tajikistan,TJ,0,AI
+Tanzania,TZ,100,AI
+Thailand,TH,97,AI
+Timor-Leste,TL,0,AI
+Togo,TG,0,AI
+Tokelau,TK,0,AI
+Tonga,TO,0,AI
+Trinidad & Tobago,TT,100,AI
+Tunisia,TN,93,AI
+Turkmenistan,TM,0,AI
+Turks & Caicos Islands,TC,0,AI
+Tuvalu,TV,0,AI
+Türkiye,TR,95,AI
+U.S. Outlying Islands,UM,0,AI
+U.S. Virgin Islands,VI,0,AI
+Uganda,UG,100,AI
+Ukraine,UA,96,AI
+United Arab Emirates,AE,94,AI
+United Kingdom,GB,96,AI
+United States,US,97,AI
+Uruguay,UY,100,AI
+Uzbekistan,UZ,100,AI
+Vanuatu,VU,0,AI
+Vatican City,VA,0,AI
+Venezuela,VE,100,AI
+Vietnam,VN,97,AI
+Wallis & Futuna,WF,0,AI
+Western Sahara,EH,0,AI
+Yemen,YE,0,AI
+Zambia,ZM,100,AI
+Zimbabwe,ZW,100,AI
+Åland Islands,AX,0,AI
+Afghanistan,AF,0,AI/ML
+Albania,AL,0,AI/ML
+Algeria,DZ,100,AI/ML
+American Samoa,AS,0,AI/ML
+Andorra,AD,0,AI/ML
+Angola,AO,0,AI/ML
+Anguilla,AI,0,AI/ML
+Antarctica,AQ,0,AI/ML
+Antigua & Barbuda,AG,0,AI/ML
+Argentina,AR,100,AI/ML
+Armenia,AM,0,AI/ML
+Aruba,AW,0,AI/ML
+Australia,AU,59,AI/ML
+Austria,AT,100,AI/ML
+Azerbaijan,AZ,0,AI/ML
+Bahamas,BS,0,AI/ML
+Bahrain,BH,0,AI/ML
+Bangladesh,BD,76,AI/ML
+Barbados,BB,0,AI/ML
+Belarus,BY,0,AI/ML
+Belgium,BE,70,AI/ML
+Belize,BZ,0,AI/ML
+Benin,BJ,0,AI/ML
+Bermuda,BM,0,AI/ML
+Bhutan,BT,0,AI/ML
+Bolivia,BO,0,AI/ML
+Bosnia & Herzegovina,BA,0,AI/ML
+Botswana,BW,0,AI/ML
+Bouvet Island,BV,0,AI/ML
+Brazil,BR,68,AI/ML
+British Indian Ocean Territory,IO,0,AI/ML
+British Virgin Islands,VG,0,AI/ML
+Brunei,BN,0,AI/ML
+Bulgaria,BG,0,AI/ML
+Burkina Faso,BF,0,AI/ML
+Burundi,BI,0,AI/ML
+Cambodia,KH,0,AI/ML
+Cameroon,CM,0,AI/ML
+Canada,CA,64,AI/ML
+Cape Verde,CV,0,AI/ML
+Caribbean Netherlands,BQ,0,AI/ML
+Cayman Islands,KY,0,AI/ML
+Central African Republic,CF,0,AI/ML
+Chad,TD,0,AI/ML
+Chile,CL,100,AI/ML
+China,CN,100,AI/ML
+Christmas Island,CX,0,AI/ML
+Cocos (Keeling) Islands,CC,0,AI/ML
+Colombia,CO,72,AI/ML
+Comoros,KM,0,AI/ML
+Congo - Brazzaville,CG,0,AI/ML
+Congo - Kinshasa,CD,0,AI/ML
+Cook Islands,CK,0,AI/ML
+Costa Rica,CR,0,AI/ML
+Croatia,HR,0,AI/ML
+Cuba,CU,0,AI/ML
+Curaçao,CW,0,AI/ML
+Cyprus,CY,0,AI/ML
+Czechia,CZ,100,AI/ML
+Côte d’Ivoire,CI,0,AI/ML
+Denmark,DK,100,AI/ML
+Djibouti,DJ,0,AI/ML
+Dominica,DM,0,AI/ML
+Dominican Republic,DO,0,AI/ML
+Ecuador,EC,0,AI/ML
+Egypt,EG,63,AI/ML
+El Salvador,SV,0,AI/ML
+Equatorial Guinea,GQ,0,AI/ML
+Eritrea,ER,0,AI/ML
+Estonia,EE,0,AI/ML
+Eswatini,SZ,0,AI/ML
+Ethiopia,ET,0,AI/ML
+Falkland Islands (Islas Malvinas),FK,0,AI/ML
+Faroe Islands,FO,0,AI/ML
+Fiji,FJ,0,AI/ML
+Finland,FI,100,AI/ML
+France,FR,75,AI/ML
+French Guiana,GF,0,AI/ML
+French Polynesia,PF,0,AI/ML
+French Southern Territories,TF,0,AI/ML
+Gabon,GA,0,AI/ML
+Gambia,GM,0,AI/ML
+Georgia,GE,0,AI/ML
+Germany,DE,69,AI/ML
+Ghana,GH,0,AI/ML
+Gibraltar,GI,0,AI/ML
+Greece,GR,64,AI/ML
+Greenland,GL,0,AI/ML
+Grenada,GD,0,AI/ML
+Guadeloupe,GP,0,AI/ML
+Guam,GU,0,AI/ML
+Guatemala,GT,0,AI/ML
+Guernsey,GG,0,AI/ML
+Guinea,GN,0,AI/ML
+Guinea-Bissau,GW,0,AI/ML
+Guyana,GY,0,AI/ML
+Haiti,HT,0,AI/ML
+Heard & McDonald Islands,HM,0,AI/ML
+Honduras,HN,0,AI/ML
+Hong Kong,HK,70,AI/ML
+Hungary,HU,100,AI/ML
+Iceland,IS,0,AI/ML
+India,IN,67,AI/ML
+Indonesia,ID,50,AI/ML
+Iran,IR,100,AI/ML
+Iraq,IQ,0,AI/ML
+Ireland,IE,100,AI/ML
+Isle of Man,IM,0,AI/ML
+Israel,IL,66,AI/ML
+Italy,IT,74,AI/ML
+Jamaica,JM,0,AI/ML
+Japan,JP,56,AI/ML
+Jersey,JE,0,AI/ML
+Jordan,JO,0,AI/ML
+Kazakhstan,KZ,0,AI/ML
+Kenya,KE,100,AI/ML
+Kiribati,KI,0,AI/ML
+Kosovo,XK,0,AI/ML
+Kuwait,KW,0,AI/ML
+Kyrgyzstan,KG,0,AI/ML
+Laos,LA,0,AI/ML
+Latvia,LV,0,AI/ML
+Lebanon,LB,0,AI/ML
+Lesotho,LS,0,AI/ML
+Liberia,LR,0,AI/ML
+Libya,LY,0,AI/ML
+Liechtenstein,LI,0,AI/ML
+Lithuania,LT,0,AI/ML
+Luxembourg,LU,0,AI/ML
+Macao,MO,0,AI/ML
+Madagascar,MG,0,AI/ML
+Malawi,MW,0,AI/ML
+Malaysia,MY,75,AI/ML
+Maldives,MV,0,AI/ML
+Mali,ML,0,AI/ML
+Malta,MT,0,AI/ML
+Marshall Islands,MH,0,AI/ML
+Martinique,MQ,0,AI/ML
+Mauritania,MR,0,AI/ML
+Mauritius,MU,0,AI/ML
+Mayotte,YT,0,AI/ML
+Mexico,MX,57,AI/ML
+Micronesia,FM,0,AI/ML
+Moldova,MD,0,AI/ML
+Monaco,MC,0,AI/ML
+Mongolia,MN,0,AI/ML
+Montenegro,ME,0,AI/ML
+Montserrat,MS,0,AI/ML
+Morocco,MA,100,AI/ML
+Mozambique,MZ,0,AI/ML
+Myanmar (Burma),MM,0,AI/ML
+Namibia,NA,0,AI/ML
+Nauru,NR,0,AI/ML
+Nepal,NP,0,AI/ML
+Netherlands,NL,66,AI/ML
+New Caledonia,NC,0,AI/ML
+New Zealand,NZ,100,AI/ML
+Nicaragua,NI,0,AI/ML
+Niger,NE,0,AI/ML
+Nigeria,NG,100,AI/ML
+Niue,NU,0,AI/ML
+Norfolk Island,NF,0,AI/ML
+North Korea,KP,0,AI/ML
+North Macedonia,MK,0,AI/ML
+Northern Mariana Islands,MP,0,AI/ML
+Norway,NO,100,AI/ML
+Oman,OM,100,AI/ML
+Pakistan,PK,53,AI/ML
+Palau,PW,0,AI/ML
+Palestine,PS,0,AI/ML
+Panama,PA,0,AI/ML
+Papua New Guinea,PG,0,AI/ML
+Paraguay,PY,0,AI/ML
+Peru,PE,100,AI/ML
+Philippines,PH,51,AI/ML
+Pitcairn Islands,PN,0,AI/ML
+Poland,PL,62,AI/ML
+Portugal,PT,64,AI/ML
+Puerto Rico,PR,0,AI/ML
+Qatar,QA,0,AI/ML
+Romania,RO,53,AI/ML
+Russia,RU,67,AI/ML
+Rwanda,RW,0,AI/ML
+Réunion,RE,0,AI/ML
+Samoa,WS,0,AI/ML
+San Marino,SM,0,AI/ML
+Saudi Arabia,SA,100,AI/ML
+Senegal,SN,0,AI/ML
+Serbia,RS,100,AI/ML
+Seychelles,SC,0,AI/ML
+Sierra Leone,SL,0,AI/ML
+Singapore,SG,80,AI/ML
+Sint Maarten,SX,0,AI/ML
+Slovakia,SK,0,AI/ML
+Slovenia,SI,0,AI/ML
+Solomon Islands,SB,0,AI/ML
+Somalia,SO,0,AI/ML
+South Africa,ZA,60,AI/ML
+South Georgia & South Sandwich Islands,GS,0,AI/ML
+South Korea,KR,81,AI/ML
+South Sudan,SS,0,AI/ML
+Spain,ES,70,AI/ML
+Sri Lanka,LK,100,AI/ML
+St. Barthélemy,BL,0,AI/ML
+St. Helena,SH,0,AI/ML
+St. Kitts & Nevis,KN,0,AI/ML
+St. Lucia,LC,0,AI/ML
+St. Martin,MF,0,AI/ML
+St. Pierre & Miquelon,PM,0,AI/ML
+St. Vincent & Grenadines,VC,0,AI/ML
+Sudan,SD,0,AI/ML
+Suriname,SR,0,AI/ML
+Svalbard & Jan Mayen,SJ,0,AI/ML
+Sweden,SE,71,AI/ML
+Switzerland,CH,72,AI/ML
+Syria,SY,0,AI/ML
+São Tomé & Príncipe,ST,0,AI/ML
+Taiwan,TW,100,AI/ML
+Tajikistan,TJ,0,AI/ML
+Tanzania,TZ,0,AI/ML
+Thailand,TH,74,AI/ML
+Timor-Leste,TL,0,AI/ML
+Togo,TG,0,AI/ML
+Tokelau,TK,0,AI/ML
+Tonga,TO,0,AI/ML
+Trinidad & Tobago,TT,0,AI/ML
+Tunisia,TN,100,AI/ML
+Turkmenistan,TM,0,AI/ML
+Turks & Caicos Islands,TC,0,AI/ML
+Tuvalu,TV,0,AI/ML
+Türkiye,TR,67,AI/ML
+U.S. Outlying Islands,UM,0,AI/ML
+U.S. Virgin Islands,VI,0,AI/ML
+Uganda,UG,0,AI/ML
+Ukraine,UA,60,AI/ML
+United Arab Emirates,AE,60,AI/ML
+United Kingdom,GB,69,AI/ML
+United States,US,61,AI/ML
+Uruguay,UY,0,AI/ML
+Uzbekistan,UZ,0,AI/ML
+Vanuatu,VU,0,AI/ML
+Vatican City,VA,0,AI/ML
+Venezuela,VE,0,AI/ML
+Vietnam,VN,73,AI/ML
+Wallis & Futuna,WF,0,AI/ML
+Western Sahara,EH,0,AI/ML
+Yemen,YE,0,AI/ML
+Zambia,ZM,0,AI/ML
+Zimbabwe,ZW,0,AI/ML
+Åland Islands,AX,0,AI/ML
+Afghanistan,AF,0,EdTech
+Albania,AL,0,EdTech
+Algeria,DZ,0,EdTech
+American Samoa,AS,0,EdTech
+Andorra,AD,0,EdTech
+Angola,AO,0,EdTech
+Anguilla,AI,0,EdTech
+Antarctica,AQ,0,EdTech
+Antigua & Barbuda,AG,0,EdTech
+Argentina,AR,100,EdTech
+Armenia,AM,0,EdTech
+Aruba,AW,0,EdTech
+Australia,AU,72,EdTech
+Austria,AT,100,EdTech
+Azerbaijan,AZ,0,EdTech
+Bahamas,BS,0,EdTech
+Bahrain,BH,0,EdTech
+Bangladesh,BD,100,EdTech
+Barbados,BB,0,EdTech
+Belarus,BY,100,EdTech
+Belgium,BE,100,EdTech
+Belize,BZ,0,EdTech
+Benin,BJ,0,EdTech
+Bermuda,BM,0,EdTech
+Bhutan,BT,0,EdTech
+Bolivia,BO,0,EdTech
+Bosnia & Herzegovina,BA,100,EdTech
+Botswana,BW,100,EdTech
+Bouvet Island,BV,0,EdTech
+Brazil,BR,94,EdTech
+British Indian Ocean Territory,IO,0,EdTech
+British Virgin Islands,VG,0,EdTech
+Brunei,BN,0,EdTech
+Bulgaria,BG,0,EdTech
+Burkina Faso,BF,0,EdTech
+Burundi,BI,0,EdTech
+Cambodia,KH,0,EdTech
+Cameroon,CM,0,EdTech
+Canada,CA,61,EdTech
+Cape Verde,CV,0,EdTech
+Caribbean Netherlands,BQ,0,EdTech
+Cayman Islands,KY,0,EdTech
+Central African Republic,CF,0,EdTech
+Chad,TD,0,EdTech
+Chile,CL,100,EdTech
+China,CN,100,EdTech
+Christmas Island,CX,0,EdTech
+Cocos (Keeling) Islands,CC,0,EdTech
+Colombia,CO,100,EdTech
+Comoros,KM,0,EdTech
+Congo - Brazzaville,CG,0,EdTech
+Congo - Kinshasa,CD,0,EdTech
+Cook Islands,CK,0,EdTech
+Costa Rica,CR,0,EdTech
+Croatia,HR,0,EdTech
+Cuba,CU,0,EdTech
+Curaçao,CW,0,EdTech
+Cyprus,CY,0,EdTech
+Czechia,CZ,100,EdTech
+Côte d’Ivoire,CI,0,EdTech
+Denmark,DK,0,EdTech
+Djibouti,DJ,0,EdTech
+Dominica,DM,0,EdTech
+Dominican Republic,DO,0,EdTech
+Ecuador,EC,0,EdTech
+Egypt,EG,100,EdTech
+El Salvador,SV,0,EdTech
+Equatorial Guinea,GQ,0,EdTech
+Eritrea,ER,0,EdTech
+Estonia,EE,0,EdTech
+Eswatini,SZ,0,EdTech
+Ethiopia,ET,0,EdTech
+Falkland Islands (Islas Malvinas),FK,0,EdTech
+Faroe Islands,FO,0,EdTech
+Fiji,FJ,0,EdTech
+Finland,FI,100,EdTech
+France,FR,100,EdTech
+French Guiana,GF,0,EdTech
+French Polynesia,PF,0,EdTech
+French Southern Territories,TF,0,EdTech
+Gabon,GA,0,EdTech
+Gambia,GM,0,EdTech
+Georgia,GE,0,EdTech
+Germany,DE,77,EdTech
+Ghana,GH,0,EdTech
+Gibraltar,GI,0,EdTech
+Greece,GR,0,EdTech
+Greenland,GL,0,EdTech
+Grenada,GD,0,EdTech
+Guadeloupe,GP,0,EdTech
+Guam,GU,0,EdTech
+Guatemala,GT,0,EdTech
+Guernsey,GG,0,EdTech
+Guinea,GN,0,EdTech
+Guinea-Bissau,GW,0,EdTech
+Guyana,GY,0,EdTech
+Haiti,HT,0,EdTech
+Heard & McDonald Islands,HM,0,EdTech
+Honduras,HN,0,EdTech
+Hong Kong,HK,100,EdTech
+Hungary,HU,0,EdTech
+Iceland,IS,0,EdTech
+India,IN,75,EdTech
+Indonesia,ID,73,EdTech
+Iran,IR,100,EdTech
+Iraq,IQ,0,EdTech
+Ireland,IE,100,EdTech
+Isle of Man,IM,0,EdTech
+Israel,IL,100,EdTech
+Italy,IT,84,EdTech
+Jamaica,JM,0,EdTech
+Japan,JP,100,EdTech
+Jersey,JE,0,EdTech
+Jordan,JO,0,EdTech
+Kazakhstan,KZ,100,EdTech
+Kenya,KE,100,EdTech
+Kiribati,KI,0,EdTech
+Kosovo,XK,0,EdTech
+Kuwait,KW,0,EdTech
+Kyrgyzstan,KG,0,EdTech
+Laos,LA,0,EdTech
+Latvia,LV,0,EdTech
+Lebanon,LB,0,EdTech
+Lesotho,LS,0,EdTech
+Liberia,LR,0,EdTech
+Libya,LY,0,EdTech
+Liechtenstein,LI,0,EdTech
+Lithuania,LT,0,EdTech
+Luxembourg,LU,0,EdTech
+Macao,MO,0,EdTech
+Madagascar,MG,0,EdTech
+Malawi,MW,100,EdTech
+Malaysia,MY,61,EdTech
+Maldives,MV,0,EdTech
+Mali,ML,0,EdTech
+Malta,MT,0,EdTech
+Marshall Islands,MH,0,EdTech
+Martinique,MQ,0,EdTech
+Mauritania,MR,0,EdTech
+Mauritius,MU,0,EdTech
+Mayotte,YT,0,EdTech
+Mexico,MX,100,EdTech
+Micronesia,FM,0,EdTech
+Moldova,MD,0,EdTech
+Monaco,MC,0,EdTech
+Mongolia,MN,0,EdTech
+Montenegro,ME,0,EdTech
+Montserrat,MS,0,EdTech
+Morocco,MA,100,EdTech
+Mozambique,MZ,0,EdTech
+Myanmar (Burma),MM,0,EdTech
+Namibia,NA,0,EdTech
+Nauru,NR,0,EdTech
+Nepal,NP,100,EdTech
+Netherlands,NL,100,EdTech
+New Caledonia,NC,0,EdTech
+New Zealand,NZ,0,EdTech
+Nicaragua,NI,0,EdTech
+Niger,NE,0,EdTech
+Nigeria,NG,89,EdTech
+Niue,NU,0,EdTech
+Norfolk Island,NF,0,EdTech
+North Korea,KP,0,EdTech
+North Macedonia,MK,0,EdTech
+Northern Mariana Islands,MP,0,EdTech
+Norway,NO,100,EdTech
+Oman,OM,0,EdTech
+Pakistan,PK,75,EdTech
+Palau,PW,0,EdTech
+Palestine,PS,0,EdTech
+Panama,PA,0,EdTech
+Papua New Guinea,PG,0,EdTech
+Paraguay,PY,0,EdTech
+Peru,PE,100,EdTech
+Philippines,PH,48,EdTech
+Pitcairn Islands,PN,0,EdTech
+Poland,PL,100,EdTech
+Portugal,PT,100,EdTech
+Puerto Rico,PR,0,EdTech
+Qatar,QA,0,EdTech
+Romania,RO,0,EdTech
+Russia,RU,82,EdTech
+Rwanda,RW,0,EdTech
+Réunion,RE,0,EdTech
+Samoa,WS,0,EdTech
+San Marino,SM,0,EdTech
+Saudi Arabia,SA,100,EdTech
+Senegal,SN,0,EdTech
+Serbia,RS,0,EdTech
+Seychelles,SC,0,EdTech
+Sierra Leone,SL,0,EdTech
+Singapore,SG,100,EdTech
+Sint Maarten,SX,0,EdTech
+Slovakia,SK,0,EdTech
+Slovenia,SI,0,EdTech
+Solomon Islands,SB,0,EdTech
+Somalia,SO,0,EdTech
+South Africa,ZA,100,EdTech
+South Georgia & South Sandwich Islands,GS,0,EdTech
+South Korea,KR,100,EdTech
+South Sudan,SS,0,EdTech
+Spain,ES,100,EdTech
+Sri Lanka,LK,0,EdTech
+St. Barthélemy,BL,0,EdTech
+St. Helena,SH,0,EdTech
+St. Kitts & Nevis,KN,0,EdTech
+St. Lucia,LC,0,EdTech
+St. Martin,MF,0,EdTech
+St. Pierre & Miquelon,PM,0,EdTech
+St. Vincent & Grenadines,VC,0,EdTech
+Sudan,SD,0,EdTech
+Suriname,SR,0,EdTech
+Svalbard & Jan Mayen,SJ,0,EdTech
+Sweden,SE,100,EdTech
+Switzerland,CH,100,EdTech
+Syria,SY,0,EdTech
+São Tomé & Príncipe,ST,0,EdTech
+Taiwan,TW,100,EdTech
+Tajikistan,TJ,0,EdTech
+Tanzania,TZ,0,EdTech
+Thailand,TH,92,EdTech
+Timor-Leste,TL,0,EdTech
+Togo,TG,0,EdTech
+Tokelau,TK,0,EdTech
+Tonga,TO,0,EdTech
+Trinidad & Tobago,TT,0,EdTech
+Tunisia,TN,100,EdTech
+Turkmenistan,TM,0,EdTech
+Turks & Caicos Islands,TC,0,EdTech
+Tuvalu,TV,0,EdTech
+Türkiye,TR,100,EdTech
+U.S. Outlying Islands,UM,0,EdTech
+U.S. Virgin Islands,VI,0,EdTech
+Uganda,UG,0,EdTech
+Ukraine,UA,100,EdTech
+United Arab Emirates,AE,100,EdTech
+United Kingdom,GB,77,EdTech
+United States,US,58,EdTech
+Uruguay,UY,0,EdTech
+Uzbekistan,UZ,0,EdTech
+Vanuatu,VU,0,EdTech
+Vatican City,VA,0,EdTech
+Venezuela,VE,0,EdTech
+Vietnam,VN,91,EdTech
+Wallis & Futuna,WF,0,EdTech
+Western Sahara,EH,0,EdTech
+Yemen,YE,0,EdTech
+Zambia,ZM,0,EdTech
+Zimbabwe,ZW,0,EdTech
+Åland Islands,AX,0,EdTech
+Afghanistan,AF,0,HealthTech
+Albania,AL,0,HealthTech
+Algeria,DZ,0,HealthTech
+American Samoa,AS,0,HealthTech
+Andorra,AD,0,HealthTech
+Angola,AO,0,HealthTech
+Anguilla,AI,0,HealthTech
+Antarctica,AQ,0,HealthTech
+Antigua & Barbuda,AG,0,HealthTech
+Argentina,AR,0,HealthTech
+Armenia,AM,0,HealthTech
+Aruba,AW,0,HealthTech
+Australia,AU,43,HealthTech
+Austria,AT,100,HealthTech
+Azerbaijan,AZ,0,HealthTech
+Bahamas,BS,0,HealthTech
+Bahrain,BH,0,HealthTech
+Bangladesh,BD,50,HealthTech
+Barbados,BB,0,HealthTech
+Belarus,BY,0,HealthTech
+Belgium,BE,0,HealthTech
+Belize,BZ,0,HealthTech
+Benin,BJ,0,HealthTech
+Bermuda,BM,0,HealthTech
+Bhutan,BT,0,HealthTech
+Bolivia,BO,0,HealthTech
+Bosnia & Herzegovina,BA,0,HealthTech
+Botswana,BW,0,HealthTech
+Bouvet Island,BV,0,HealthTech
+Brazil,BR,78,HealthTech
+British Indian Ocean Territory,IO,0,HealthTech
+British Virgin Islands,VG,0,HealthTech
+Brunei,BN,0,HealthTech
+Bulgaria,BG,0,HealthTech
+Burkina Faso,BF,0,HealthTech
+Burundi,BI,0,HealthTech
+Cambodia,KH,0,HealthTech
+Cameroon,CM,0,HealthTech
+Canada,CA,42,HealthTech
+Cape Verde,CV,0,HealthTech
+Caribbean Netherlands,BQ,0,HealthTech
+Cayman Islands,KY,0,HealthTech
+Central African Republic,CF,0,HealthTech
+Chad,TD,0,HealthTech
+Chile,CL,0,HealthTech
+China,CN,0,HealthTech
+Christmas Island,CX,0,HealthTech
+Cocos (Keeling) Islands,CC,0,HealthTech
+Colombia,CO,54,HealthTech
+Comoros,KM,0,HealthTech
+Congo - Brazzaville,CG,0,HealthTech
+Congo - Kinshasa,CD,0,HealthTech
+Cook Islands,CK,0,HealthTech
+Costa Rica,CR,0,HealthTech
+Croatia,HR,0,HealthTech
+Cuba,CU,0,HealthTech
+Curaçao,CW,0,HealthTech
+Cyprus,CY,0,HealthTech
+Czechia,CZ,0,HealthTech
+Côte d’Ivoire,CI,0,HealthTech
+Denmark,DK,0,HealthTech
+Djibouti,DJ,0,HealthTech
+Dominica,DM,0,HealthTech
+Dominican Republic,DO,0,HealthTech
+Ecuador,EC,0,HealthTech
+Egypt,EG,100,HealthTech
+El Salvador,SV,0,HealthTech
+Equatorial Guinea,GQ,0,HealthTech
+Eritrea,ER,0,HealthTech
+Estonia,EE,0,HealthTech
+Eswatini,SZ,0,HealthTech
+Ethiopia,ET,0,HealthTech
+Falkland Islands (Islas Malvinas),FK,0,HealthTech
+Faroe Islands,FO,0,HealthTech
+Fiji,FJ,0,HealthTech
+Finland,FI,0,HealthTech
+France,FR,52,HealthTech
+French Guiana,GF,0,HealthTech
+French Polynesia,PF,0,HealthTech
+French Southern Territories,TF,0,HealthTech
+Gabon,GA,0,HealthTech
+Gambia,GM,0,HealthTech
+Georgia,GE,0,HealthTech
+Germany,DE,72,HealthTech
+Ghana,GH,0,HealthTech
+Gibraltar,GI,0,HealthTech
+Greece,GR,0,HealthTech
+Greenland,GL,0,HealthTech
+Grenada,GD,0,HealthTech
+Guadeloupe,GP,0,HealthTech
+Guam,GU,0,HealthTech
+Guatemala,GT,0,HealthTech
+Guernsey,GG,0,HealthTech
+Guinea,GN,0,HealthTech
+Guinea-Bissau,GW,0,HealthTech
+Guyana,GY,0,HealthTech
+Haiti,HT,0,HealthTech
+Heard & McDonald Islands,HM,0,HealthTech
+Honduras,HN,0,HealthTech
+Hong Kong,HK,100,HealthTech
+Hungary,HU,0,HealthTech
+Iceland,IS,0,HealthTech
+India,IN,40,HealthTech
+Indonesia,ID,43,HealthTech
+Iran,IR,0,HealthTech
+Iraq,IQ,0,HealthTech
+Ireland,IE,100,HealthTech
+Isle of Man,IM,0,HealthTech
+Israel,IL,78,HealthTech
+Italy,IT,75,HealthTech
+Jamaica,JM,0,HealthTech
+Japan,JP,64,HealthTech
+Jersey,JE,0,HealthTech
+Jordan,JO,0,HealthTech
+Kazakhstan,KZ,0,HealthTech
+Kenya,KE,0,HealthTech
+Kiribati,KI,0,HealthTech
+Kosovo,XK,0,HealthTech
+Kuwait,KW,0,HealthTech
+Kyrgyzstan,KG,0,HealthTech
+Laos,LA,0,HealthTech
+Latvia,LV,100,HealthTech
+Lebanon,LB,0,HealthTech
+Lesotho,LS,0,HealthTech
+Liberia,LR,0,HealthTech
+Libya,LY,0,HealthTech
+Liechtenstein,LI,0,HealthTech
+Lithuania,LT,100,HealthTech
+Luxembourg,LU,0,HealthTech
+Macao,MO,0,HealthTech
+Madagascar,MG,0,HealthTech
+Malawi,MW,0,HealthTech
+Malaysia,MY,100,HealthTech
+Maldives,MV,0,HealthTech
+Mali,ML,0,HealthTech
+Malta,MT,0,HealthTech
+Marshall Islands,MH,0,HealthTech
+Martinique,MQ,0,HealthTech
+Mauritania,MR,0,HealthTech
+Mauritius,MU,0,HealthTech
+Mayotte,YT,0,HealthTech
+Mexico,MX,57,HealthTech
+Micronesia,FM,0,HealthTech
+Moldova,MD,0,HealthTech
+Monaco,MC,100,HealthTech
+Mongolia,MN,0,HealthTech
+Montenegro,ME,0,HealthTech
+Montserrat,MS,0,HealthTech
+Morocco,MA,0,HealthTech
+Mozambique,MZ,0,HealthTech
+Myanmar (Burma),MM,0,HealthTech
+Namibia,NA,0,HealthTech
+Nauru,NR,0,HealthTech
+Nepal,NP,0,HealthTech
+Netherlands,NL,48,HealthTech
+New Caledonia,NC,0,HealthTech
+New Zealand,NZ,0,HealthTech
+Nicaragua,NI,0,HealthTech
+Niger,NE,0,HealthTech
+Nigeria,NG,57,HealthTech
+Niue,NU,0,HealthTech
+Norfolk Island,NF,0,HealthTech
+North Korea,KP,0,HealthTech
+North Macedonia,MK,0,HealthTech
+Northern Mariana Islands,MP,0,HealthTech
+Norway,NO,0,HealthTech
+Oman,OM,0,HealthTech
+Pakistan,PK,100,HealthTech
+Palau,PW,0,HealthTech
+Palestine,PS,0,HealthTech
+Panama,PA,0,HealthTech
+Papua New Guinea,PG,0,HealthTech
+Paraguay,PY,0,HealthTech
+Peru,PE,0,HealthTech
+Philippines,PH,52,HealthTech
+Pitcairn Islands,PN,0,HealthTech
+Poland,PL,62,HealthTech
+Portugal,PT,100,HealthTech
+Puerto Rico,PR,0,HealthTech
+Qatar,QA,100,HealthTech
+Romania,RO,0,HealthTech
+Russia,RU,100,HealthTech
+Rwanda,RW,100,HealthTech
+Réunion,RE,0,HealthTech
+Samoa,WS,0,HealthTech
+San Marino,SM,0,HealthTech
+Saudi Arabia,SA,0,HealthTech
+Senegal,SN,0,HealthTech
+Serbia,RS,0,HealthTech
+Seychelles,SC,0,HealthTech
+Sierra Leone,SL,0,HealthTech
+Singapore,SG,48,HealthTech
+Sint Maarten,SX,0,HealthTech
+Slovakia,SK,0,HealthTech
+Slovenia,SI,0,HealthTech
+Solomon Islands,SB,0,HealthTech
+Somalia,SO,0,HealthTech
+South Africa,ZA,100,HealthTech
+South Georgia & South Sandwich Islands,GS,0,HealthTech
+South Korea,KR,68,HealthTech
+South Sudan,SS,0,HealthTech
+Spain,ES,60,HealthTech
+Sri Lanka,LK,100,HealthTech
+St. Barthélemy,BL,0,HealthTech
+St. Helena,SH,100,HealthTech
+St. Kitts & Nevis,KN,0,HealthTech
+St. Lucia,LC,0,HealthTech
+St. Martin,MF,0,HealthTech
+St. Pierre & Miquelon,PM,0,HealthTech
+St. Vincent & Grenadines,VC,0,HealthTech
+Sudan,SD,0,HealthTech
+Suriname,SR,0,HealthTech
+Svalbard & Jan Mayen,SJ,0,HealthTech
+Sweden,SE,0,HealthTech
+Switzerland,CH,68,HealthTech
+Syria,SY,0,HealthTech
+São Tomé & Príncipe,ST,0,HealthTech
+Taiwan,TW,100,HealthTech
+Tajikistan,TJ,0,HealthTech
+Tanzania,TZ,0,HealthTech
+Thailand,TH,66,HealthTech
+Timor-Leste,TL,0,HealthTech
+Togo,TG,0,HealthTech
+Tokelau,TK,0,HealthTech
+Tonga,TO,0,HealthTech
+Trinidad & Tobago,TT,0,HealthTech
+Tunisia,TN,100,HealthTech
+Turkmenistan,TM,0,HealthTech
+Turks & Caicos Islands,TC,100,HealthTech
+Tuvalu,TV,0,HealthTech
+Türkiye,TR,51,HealthTech
+U.S. Outlying Islands,UM,0,HealthTech
+U.S. Virgin Islands,VI,0,HealthTech
+Uganda,UG,0,HealthTech
+Ukraine,UA,0,HealthTech
+United Arab Emirates,AE,53,HealthTech
+United Kingdom,GB,43,HealthTech
+United States,US,52,HealthTech
+Uruguay,UY,0,HealthTech
+Uzbekistan,UZ,0,HealthTech
+Vanuatu,VU,0,HealthTech
+Vatican City,VA,0,HealthTech
+Venezuela,VE,0,HealthTech
+Vietnam,VN,66,HealthTech
+Wallis & Futuna,WF,0,HealthTech
+Western Sahara,EH,0,HealthTech
+Yemen,YE,0,HealthTech
+Zambia,ZM,0,HealthTech
+Zimbabwe,ZW,0,HealthTech
+Åland Islands,AX,0,HealthTech
+Afghanistan,AF,0,Healthcare
+Albania,AL,0,Healthcare
+Algeria,DZ,70,Healthcare
+American Samoa,AS,0,Healthcare
+Andorra,AD,0,Healthcare
+Angola,AO,0,Healthcare
+Anguilla,AI,0,Healthcare
+Antarctica,AQ,0,Healthcare
+Antigua & Barbuda,AG,0,Healthcare
+Argentina,AR,58,Healthcare
+Armenia,AM,0,Healthcare
+Aruba,AW,0,Healthcare
+Australia,AU,68,Healthcare
+Austria,AT,57,Healthcare
+Azerbaijan,AZ,0,Healthcare
+Bahamas,BS,0,Healthcare
+Bahrain,BH,0,Healthcare
+Bangladesh,BD,55,Healthcare
+Barbados,BB,0,Healthcare
+Belarus,BY,56,Healthcare
+Belgium,BE,58,Healthcare
+Belize,BZ,0,Healthcare
+Benin,BJ,0,Healthcare
+Bermuda,BM,0,Healthcare
+Bhutan,BT,0,Healthcare
+Bolivia,BO,0,Healthcare
+Bosnia & Herzegovina,BA,0,Healthcare
+Botswana,BW,0,Healthcare
+Bouvet Island,BV,0,Healthcare
+Brazil,BR,51,Healthcare
+British Indian Ocean Territory,IO,0,Healthcare
+British Virgin Islands,VG,0,Healthcare
+Brunei,BN,0,Healthcare
+Bulgaria,BG,50,Healthcare
+Burkina Faso,BF,0,Healthcare
+Burundi,BI,0,Healthcare
+Cambodia,KH,100,Healthcare
+Cameroon,CM,0,Healthcare
+Canada,CA,61,Healthcare
+Cape Verde,CV,0,Healthcare
+Caribbean Netherlands,BQ,0,Healthcare
+Cayman Islands,KY,0,Healthcare
+Central African Republic,CF,0,Healthcare
+Chad,TD,0,Healthcare
+Chile,CL,50,Healthcare
+China,CN,53,Healthcare
+Christmas Island,CX,0,Healthcare
+Cocos (Keeling) Islands,CC,0,Healthcare
+Colombia,CO,52,Healthcare
+Comoros,KM,53,Healthcare
+Congo - Brazzaville,CG,0,Healthcare
+Congo - Kinshasa,CD,0,Healthcare
+Cook Islands,CK,0,Healthcare
+Costa Rica,CR,0,Healthcare
+Croatia,HR,100,Healthcare
+Cuba,CU,0,Healthcare
+Curaçao,CW,0,Healthcare
+Cyprus,CY,0,Healthcare
+Czechia,CZ,70,Healthcare
+Côte d’Ivoire,CI,0,Healthcare
+Denmark,DK,61,Healthcare
+Djibouti,DJ,0,Healthcare
+Dominica,DM,0,Healthcare
+Dominican Republic,DO,0,Healthcare
+Ecuador,EC,0,Healthcare
+Egypt,EG,70,Healthcare
+El Salvador,SV,0,Healthcare
+Equatorial Guinea,GQ,0,Healthcare
+Eritrea,ER,0,Healthcare
+Estonia,EE,0,Healthcare
+Eswatini,SZ,0,Healthcare
+Ethiopia,ET,0,Healthcare
+Falkland Islands (Islas Malvinas),FK,0,Healthcare
+Faroe Islands,FO,0,Healthcare
+Fiji,FJ,0,Healthcare
+Finland,FI,52,Healthcare
+France,FR,72,Healthcare
+French Guiana,GF,0,Healthcare
+French Polynesia,PF,0,Healthcare
+French Southern Territories,TF,0,Healthcare
+Gabon,GA,0,Healthcare
+Gambia,GM,0,Healthcare
+Georgia,GE,100,Healthcare
+Germany,DE,55,Healthcare
+Ghana,GH,100,Healthcare
+Gibraltar,GI,0,Healthcare
+Greece,GR,74,Healthcare
+Greenland,GL,0,Healthcare
+Grenada,GD,0,Healthcare
+Guadeloupe,GP,0,Healthcare
+Guam,GU,0,Healthcare
+Guatemala,GT,0,Healthcare
+Guernsey,GG,0,Healthcare
+Guinea,GN,0,Healthcare
+Guinea-Bissau,GW,0,Healthcare
+Guyana,GY,0,Healthcare
+Haiti,HT,0,Healthcare
+Heard & McDonald Islands,HM,0,Healthcare
+Honduras,HN,0,Healthcare
+Hong Kong,HK,56,Healthcare
+Hungary,HU,66,Healthcare
+Iceland,IS,0,Healthcare
+India,IN,53,Healthcare
+Indonesia,ID,54,Healthcare
+Iran,IR,66,Healthcare
+Iraq,IQ,0,Healthcare
+Ireland,IE,70,Healthcare
+Isle of Man,IM,0,Healthcare
+Israel,IL,78,Healthcare
+Italy,IT,54,Healthcare
+Jamaica,JM,0,Healthcare
+Japan,JP,53,Healthcare
+Jersey,JE,0,Healthcare
+Jordan,JO,100,Healthcare
+Kazakhstan,KZ,55,Healthcare
+Kenya,KE,55,Healthcare
+Kiribati,KI,0,Healthcare
+Kosovo,XK,0,Healthcare
+Kuwait,KW,0,Healthcare
+Kyrgyzstan,KG,0,Healthcare
+Laos,LA,0,Healthcare
+Latvia,LV,100,Healthcare
+Lebanon,LB,62,Healthcare
+Lesotho,LS,0,Healthcare
+Liberia,LR,0,Healthcare
+Libya,LY,0,Healthcare
+Liechtenstein,LI,0,Healthcare
+Lithuania,LT,100,Healthcare
+Luxembourg,LU,0,Healthcare
+Macao,MO,0,Healthcare
+Madagascar,MG,0,Healthcare
+Malawi,MW,0,Healthcare
+Malaysia,MY,56,Healthcare
+Maldives,MV,0,Healthcare
+Mali,ML,0,Healthcare
+Malta,MT,0,Healthcare
+Marshall Islands,MH,0,Healthcare
+Martinique,MQ,0,Healthcare
+Mauritania,MR,0,Healthcare
+Mauritius,MU,0,Healthcare
+Mayotte,YT,0,Healthcare
+Mexico,MX,55,Healthcare
+Micronesia,FM,0,Healthcare
+Moldova,MD,0,Healthcare
+Monaco,MC,0,Healthcare
+Mongolia,MN,0,Healthcare
+Montenegro,ME,0,Healthcare
+Montserrat,MS,0,Healthcare
+Morocco,MA,62,Healthcare
+Mozambique,MZ,0,Healthcare
+Myanmar (Burma),MM,100,Healthcare
+Namibia,NA,0,Healthcare
+Nauru,NR,0,Healthcare
+Nepal,NP,62,Healthcare
+Netherlands,NL,57,Healthcare
+New Caledonia,NC,0,Healthcare
+New Zealand,NZ,69,Healthcare
+Nicaragua,NI,0,Healthcare
+Niger,NE,0,Healthcare
+Nigeria,NG,54,Healthcare
+Niue,NU,0,Healthcare
+Norfolk Island,NF,0,Healthcare
+North Korea,KP,0,Healthcare
+North Macedonia,MK,0,Healthcare
+Northern Mariana Islands,MP,0,Healthcare
+Norway,NO,100,Healthcare
+Oman,OM,60,Healthcare
+Pakistan,PK,65,Healthcare
+Palau,PW,0,Healthcare
+Palestine,PS,100,Healthcare
+Panama,PA,0,Healthcare
+Papua New Guinea,PG,0,Healthcare
+Paraguay,PY,0,Healthcare
+Peru,PE,58,Healthcare
+Philippines,PH,55,Healthcare
+Pitcairn Islands,PN,0,Healthcare
+Poland,PL,60,Healthcare
+Portugal,PT,53,Healthcare
+Puerto Rico,PR,0,Healthcare
+Qatar,QA,56,Healthcare
+Romania,RO,66,Healthcare
+Russia,RU,57,Healthcare
+Rwanda,RW,0,Healthcare
+Réunion,RE,0,Healthcare
+Samoa,WS,0,Healthcare
+San Marino,SM,0,Healthcare
+Saudi Arabia,SA,58,Healthcare
+Senegal,SN,0,Healthcare
+Serbia,RS,100,Healthcare
+Seychelles,SC,0,Healthcare
+Sierra Leone,SL,0,Healthcare
+Singapore,SG,53,Healthcare
+Sint Maarten,SX,0,Healthcare
+Slovakia,SK,100,Healthcare
+Slovenia,SI,0,Healthcare
+Solomon Islands,SB,0,Healthcare
+Somalia,SO,0,Healthcare
+South Africa,ZA,63,Healthcare
+South Georgia & South Sandwich Islands,GS,0,Healthcare
+South Korea,KR,50,Healthcare
+South Sudan,SS,0,Healthcare
+Spain,ES,54,Healthcare
+Sri Lanka,LK,66,Healthcare
+St. Barthélemy,BL,0,Healthcare
+St. Helena,SH,51,Healthcare
+St. Kitts & Nevis,KN,0,Healthcare
+St. Lucia,LC,0,Healthcare
+St. Martin,MF,0,Healthcare
+St. Pierre & Miquelon,PM,0,Healthcare
+St. Vincent & Grenadines,VC,0,Healthcare
+Sudan,SD,0,Healthcare
+Suriname,SR,0,Healthcare
+Svalbard & Jan Mayen,SJ,0,Healthcare
+Sweden,SE,59,Healthcare
+Switzerland,CH,65,Healthcare
+Syria,SY,0,Healthcare
+São Tomé & Príncipe,ST,0,Healthcare
+Taiwan,TW,62,Healthcare
+Tajikistan,TJ,0,Healthcare
+Tanzania,TZ,0,Healthcare
+Thailand,TH,52,Healthcare
+Timor-Leste,TL,0,Healthcare
+Togo,TG,0,Healthcare
+Tokelau,TK,0,Healthcare
+Tonga,TO,0,Healthcare
+Trinidad & Tobago,TT,0,Healthcare
+Tunisia,TN,51,Healthcare
+Turkmenistan,TM,0,Healthcare
+Turks & Caicos Islands,TC,0,Healthcare
+Tuvalu,TV,0,Healthcare
+Türkiye,TR,60,Healthcare
+U.S. Outlying Islands,UM,0,Healthcare
+U.S. Virgin Islands,VI,0,Healthcare
+Uganda,UG,100,Healthcare
+Ukraine,UA,52,Healthcare
+United Arab Emirates,AE,55,Healthcare
+United Kingdom,GB,52,Healthcare
+United States,US,55,Healthcare
+Uruguay,UY,0,Healthcare
+Uzbekistan,UZ,0,Healthcare
+Vanuatu,VU,0,Healthcare
+Vatican City,VA,0,Healthcare
+Venezuela,VE,0,Healthcare
+Vietnam,VN,53,Healthcare
+Wallis & Futuna,WF,0,Healthcare
+Western Sahara,EH,0,Healthcare
+Yemen,YE,0,Healthcare
+Zambia,ZM,0,Healthcare
+Zimbabwe,ZW,0,Healthcare
+Åland Islands,AX,0,Healthcare
+Afghanistan,AF,0,FinTech
+Albania,AL,0,FinTech
+Algeria,DZ,100,FinTech
+American Samoa,AS,0,FinTech
+Andorra,AD,0,FinTech
+Angola,AO,100,FinTech
+Anguilla,AI,0,FinTech
+Antarctica,AQ,0,FinTech
+Antigua & Barbuda,AG,0,FinTech
+Argentina,AR,100,FinTech
+Armenia,AM,100,FinTech
+Aruba,AW,0,FinTech
+Australia,AU,97,FinTech
+Austria,AT,100,FinTech
+Azerbaijan,AZ,100,FinTech
+Bahamas,BS,0,FinTech
+Bahrain,BH,100,FinTech
+Bangladesh,BD,88,FinTech
+Barbados,BB,0,FinTech
+Belarus,BY,100,FinTech
+Belgium,BE,88,FinTech
+Belize,BZ,0,FinTech
+Benin,BJ,0,FinTech
+Bermuda,BM,0,FinTech
+Bhutan,BT,0,FinTech
+Bolivia,BO,100,FinTech
+Bosnia & Herzegovina,BA,0,FinTech
+Botswana,BW,0,FinTech
+Bouvet Island,BV,0,FinTech
+Brazil,BR,100,FinTech
+British Indian Ocean Territory,IO,0,FinTech
+British Virgin Islands,VG,0,FinTech
+Brunei,BN,0,FinTech
+Bulgaria,BG,100,FinTech
+Burkina Faso,BF,0,FinTech
+Burundi,BI,0,FinTech
+Cambodia,KH,100,FinTech
+Cameroon,CM,100,FinTech
+Canada,CA,95,FinTech
+Cape Verde,CV,0,FinTech
+Caribbean Netherlands,BQ,0,FinTech
+Cayman Islands,KY,0,FinTech
+Central African Republic,CF,0,FinTech
+Chad,TD,0,FinTech
+Chile,CL,100,FinTech
+China,CN,100,FinTech
+Christmas Island,CX,0,FinTech
+Cocos (Keeling) Islands,CC,0,FinTech
+Colombia,CO,100,FinTech
+Comoros,KM,0,FinTech
+Congo - Brazzaville,CG,0,FinTech
+Congo - Kinshasa,CD,100,FinTech
+Cook Islands,CK,0,FinTech
+Costa Rica,CR,100,FinTech
+Croatia,HR,100,FinTech
+Cuba,CU,0,FinTech
+Curaçao,CW,0,FinTech
+Cyprus,CY,100,FinTech
+Czechia,CZ,100,FinTech
+Côte d’Ivoire,CI,100,FinTech
+Denmark,DK,100,FinTech
+Djibouti,DJ,0,FinTech
+Dominica,DM,0,FinTech
+Dominican Republic,DO,100,FinTech
+Ecuador,EC,100,FinTech
+Egypt,EG,100,FinTech
+El Salvador,SV,0,FinTech
+Equatorial Guinea,GQ,0,FinTech
+Eritrea,ER,0,FinTech
+Estonia,EE,100,FinTech
+Eswatini,SZ,0,FinTech
+Ethiopia,ET,100,FinTech
+Falkland Islands (Islas Malvinas),FK,0,FinTech
+Faroe Islands,FO,0,FinTech
+Fiji,FJ,0,FinTech
+Finland,FI,100,FinTech
+France,FR,99,FinTech
+French Guiana,GF,0,FinTech
+French Polynesia,PF,0,FinTech
+French Southern Territories,TF,0,FinTech
+Gabon,GA,0,FinTech
+Gambia,GM,0,FinTech
+Georgia,GE,100,FinTech
+Germany,DE,99,FinTech
+Ghana,GH,100,FinTech
+Gibraltar,GI,0,FinTech
+Greece,GR,100,FinTech
+Greenland,GL,0,FinTech
+Grenada,GD,0,FinTech
+Guadeloupe,GP,0,FinTech
+Guam,GU,0,FinTech
+Guatemala,GT,100,FinTech
+Guernsey,GG,0,FinTech
+Guinea,GN,0,FinTech
+Guinea-Bissau,GW,0,FinTech
+Guyana,GY,0,FinTech
+Haiti,HT,0,FinTech
+Heard & McDonald Islands,HM,0,FinTech
+Honduras,HN,100,FinTech
+Hong Kong,HK,97,FinTech
+Hungary,HU,100,FinTech
+Iceland,IS,0,FinTech
+India,IN,94,FinTech
+Indonesia,ID,95,FinTech
+Iran,IR,100,FinTech
+Iraq,IQ,0,FinTech
+Ireland,IE,100,FinTech
+Isle of Man,IM,0,FinTech
+Israel,IL,100,FinTech
+Italy,IT,100,FinTech
+Jamaica,JM,0,FinTech
+Japan,JP,100,FinTech
+Jersey,JE,0,FinTech
+Jordan,JO,100,FinTech
+Kazakhstan,KZ,100,FinTech
+Kenya,KE,100,FinTech
+Kiribati,KI,0,FinTech
+Kosovo,XK,0,FinTech
+Kuwait,KW,100,FinTech
+Kyrgyzstan,KG,0,FinTech
+Laos,LA,100,FinTech
+Latvia,LV,100,FinTech
+Lebanon,LB,100,FinTech
+Lesotho,LS,0,FinTech
+Liberia,LR,0,FinTech
+Libya,LY,0,FinTech
+Liechtenstein,LI,0,FinTech
+Lithuania,LT,100,FinTech
+Luxembourg,LU,100,FinTech
+Macao,MO,0,FinTech
+Madagascar,MG,0,FinTech
+Malawi,MW,0,FinTech
+Malaysia,MY,95,FinTech
+Maldives,MV,0,FinTech
+Mali,ML,0,FinTech
+Malta,MT,0,FinTech
+Marshall Islands,MH,0,FinTech
+Martinique,MQ,0,FinTech
+Mauritania,MR,0,FinTech
+Mauritius,MU,100,FinTech
+Mayotte,YT,0,FinTech
+Mexico,MX,100,FinTech
+Micronesia,FM,0,FinTech
+Moldova,MD,100,FinTech
+Monaco,MC,0,FinTech
+Mongolia,MN,0,FinTech
+Montenegro,ME,0,FinTech
+Montserrat,MS,0,FinTech
+Morocco,MA,100,FinTech
+Mozambique,MZ,0,FinTech
+Myanmar (Burma),MM,0,FinTech
+Namibia,NA,0,FinTech
+Nauru,NR,0,FinTech
+Nepal,NP,100,FinTech
+Netherlands,NL,100,FinTech
+New Caledonia,NC,0,FinTech
+New Zealand,NZ,100,FinTech
+Nicaragua,NI,0,FinTech
+Niger,NE,0,FinTech
+Nigeria,NG,98,FinTech
+Niue,NU,0,FinTech
+Norfolk Island,NF,0,FinTech
+North Korea,KP,0,FinTech
+North Macedonia,MK,100,FinTech
+Northern Mariana Islands,MP,0,FinTech
+Norway,NO,100,FinTech
+Oman,OM,100,FinTech
+Pakistan,PK,94,FinTech
+Palau,PW,0,FinTech
+Palestine,PS,0,FinTech
+Panama,PA,100,FinTech
+Papua New Guinea,PG,0,FinTech
+Paraguay,PY,0,FinTech
+Peru,PE,100,FinTech
+Philippines,PH,81,FinTech
+Pitcairn Islands,PN,0,FinTech
+Poland,PL,100,FinTech
+Portugal,PT,100,FinTech
+Puerto Rico,PR,0,FinTech
+Qatar,QA,100,FinTech
+Romania,RO,100,FinTech
+Russia,RU,100,FinTech
+Rwanda,RW,100,FinTech
+Réunion,RE,0,FinTech
+Samoa,WS,0,FinTech
+San Marino,SM,0,FinTech
+Saudi Arabia,SA,100,FinTech
+Senegal,SN,100,FinTech
+Serbia,RS,100,FinTech
+Seychelles,SC,0,FinTech
+Sierra Leone,SL,0,FinTech
+Singapore,SG,98,FinTech
+Sint Maarten,SX,0,FinTech
+Slovakia,SK,100,FinTech
+Slovenia,SI,100,FinTech
+Solomon Islands,SB,0,FinTech
+Somalia,SO,0,FinTech
+South Africa,ZA,93,FinTech
+South Georgia & South Sandwich Islands,GS,0,FinTech
+South Korea,KR,100,FinTech
+South Sudan,SS,0,FinTech
+Spain,ES,100,FinTech
+Sri Lanka,LK,100,FinTech
+St. Barthélemy,BL,0,FinTech
+St. Helena,SH,100,FinTech
+St. Kitts & Nevis,KN,0,FinTech
+St. Lucia,LC,0,FinTech
+St. Martin,MF,0,FinTech
+St. Pierre & Miquelon,PM,0,FinTech
+St. Vincent & Grenadines,VC,0,FinTech
+Sudan,SD,0,FinTech
+Suriname,SR,0,FinTech
+Svalbard & Jan Mayen,SJ,0,FinTech
+Sweden,SE,100,FinTech
+Switzerland,CH,100,FinTech
+Syria,SY,0,FinTech
+São Tomé & Príncipe,ST,0,FinTech
+Taiwan,TW,100,FinTech
+Tajikistan,TJ,0,FinTech
+Tanzania,TZ,100,FinTech
+Thailand,TH,100,FinTech
+Timor-Leste,TL,0,FinTech
+Togo,TG,0,FinTech
+Tokelau,TK,0,FinTech
+Tonga,TO,0,FinTech
+Trinidad & Tobago,TT,0,FinTech
+Tunisia,TN,100,FinTech
+Turkmenistan,TM,0,FinTech
+Turks & Caicos Islands,TC,0,FinTech
+Tuvalu,TV,0,FinTech
+Türkiye,TR,100,FinTech
+U.S. Outlying Islands,UM,0,FinTech
+U.S. Virgin Islands,VI,0,FinTech
+Uganda,UG,100,FinTech
+Ukraine,UA,100,FinTech
+United Arab Emirates,AE,100,FinTech
+United Kingdom,GB,98,FinTech
+United States,US,91,FinTech
+Uruguay,UY,100,FinTech
+Uzbekistan,UZ,0,FinTech
+Vanuatu,VU,0,FinTech
+Vatican City,VA,0,FinTech
+Venezuela,VE,100,FinTech
+Vietnam,VN,100,FinTech
+Wallis & Futuna,WF,0,FinTech
+Western Sahara,EH,0,FinTech
+Yemen,YE,0,FinTech
+Zambia,ZM,100,FinTech
+Zimbabwe,ZW,100,FinTech
+Åland Islands,AX,0,FinTech
+Afghanistan,AF,0,Finance
+Albania,AL,100,Finance
+Algeria,DZ,100,Finance
+American Samoa,AS,0,Finance
+Andorra,AD,0,Finance
+Angola,AO,0,Finance
+Anguilla,AI,0,Finance
+Antarctica,AQ,0,Finance
+Antigua & Barbuda,AG,0,Finance
+Argentina,AR,100,Finance
+Armenia,AM,0,Finance
+Aruba,AW,0,Finance
+Australia,AU,90,Finance
+Austria,AT,100,Finance
+Azerbaijan,AZ,100,Finance
+Bahamas,BS,0,Finance
+Bahrain,BH,100,Finance
+Bangladesh,BD,100,Finance
+Barbados,BB,0,Finance
+Belarus,BY,0,Finance
+Belgium,BE,100,Finance
+Belize,BZ,0,Finance
+Benin,BJ,0,Finance
+Bermuda,BM,0,Finance
+Bhutan,BT,0,Finance
+Bolivia,BO,0,Finance
+Bosnia & Herzegovina,BA,0,Finance
+Botswana,BW,100,Finance
+Bouvet Island,BV,0,Finance
+Brazil,BR,91,Finance
+British Indian Ocean Territory,IO,0,Finance
+British Virgin Islands,VG,0,Finance
+Brunei,BN,0,Finance
+Bulgaria,BG,100,Finance
+Burkina Faso,BF,0,Finance
+Burundi,BI,0,Finance
+Cambodia,KH,100,Finance
+Cameroon,CM,100,Finance
+Canada,CA,92,Finance
+Cape Verde,CV,0,Finance
+Caribbean Netherlands,BQ,0,Finance
+Cayman Islands,KY,0,Finance
+Central African Republic,CF,0,Finance
+Chad,TD,0,Finance
+Chile,CL,100,Finance
+China,CN,100,Finance
+Christmas Island,CX,0,Finance
+Cocos (Keeling) Islands,CC,0,Finance
+Colombia,CO,100,Finance
+Comoros,KM,0,Finance
+Congo - Brazzaville,CG,0,Finance
+Congo - Kinshasa,CD,100,Finance
+Cook Islands,CK,0,Finance
+Costa Rica,CR,100,Finance
+Croatia,HR,100,Finance
+Cuba,CU,0,Finance
+Curaçao,CW,0,Finance
+Cyprus,CY,0,Finance
+Czechia,CZ,100,Finance
+Côte d’Ivoire,CI,100,Finance
+Denmark,DK,100,Finance
+Djibouti,DJ,0,Finance
+Dominica,DM,0,Finance
+Dominican Republic,DO,0,Finance
+Ecuador,EC,0,Finance
+Egypt,EG,88,Finance
+El Salvador,SV,0,Finance
+Equatorial Guinea,GQ,0,Finance
+Eritrea,ER,0,Finance
+Estonia,EE,100,Finance
+Eswatini,SZ,0,Finance
+Ethiopia,ET,100,Finance
+Falkland Islands (Islas Malvinas),FK,0,Finance
+Faroe Islands,FO,0,Finance
+Fiji,FJ,0,Finance
+Finland,FI,100,Finance
+France,FR,98,Finance
+French Guiana,GF,0,Finance
+French Polynesia,PF,0,Finance
+French Southern Territories,TF,0,Finance
+Gabon,GA,0,Finance
+Gambia,GM,0,Finance
+Georgia,GE,100,Finance
+Germany,DE,95,Finance
+Ghana,GH,100,Finance
+Gibraltar,GI,0,Finance
+Greece,GR,100,Finance
+Greenland,GL,0,Finance
+Grenada,GD,0,Finance
+Guadeloupe,GP,0,Finance
+Guam,GU,0,Finance
+Guatemala,GT,0,Finance
+Guernsey,GG,0,Finance
+Guinea,GN,0,Finance
+Guinea-Bissau,GW,0,Finance
+Guyana,GY,0,Finance
+Haiti,HT,0,Finance
+Heard & McDonald Islands,HM,0,Finance
+Honduras,HN,0,Finance
+Hong Kong,HK,90,Finance
+Hungary,HU,100,Finance
+Iceland,IS,100,Finance
+India,IN,89,Finance
+Indonesia,ID,93,Finance
+Iran,IR,100,Finance
+Iraq,IQ,0,Finance
+Ireland,IE,91,Finance
+Isle of Man,IM,0,Finance
+Israel,IL,100,Finance
+Italy,IT,96,Finance
+Jamaica,JM,100,Finance
+Japan,JP,96,Finance
+Jersey,JE,0,Finance
+Jordan,JO,100,Finance
+Kazakhstan,KZ,100,Finance
+Kenya,KE,91,Finance
+Kiribati,KI,0,Finance
+Kosovo,XK,0,Finance
+Kuwait,KW,100,Finance
+Kyrgyzstan,KG,0,Finance
+Laos,LA,0,Finance
+Latvia,LV,100,Finance
+Lebanon,LB,100,Finance
+Lesotho,LS,0,Finance
+Liberia,LR,0,Finance
+Libya,LY,0,Finance
+Liechtenstein,LI,0,Finance
+Lithuania,LT,100,Finance
+Luxembourg,LU,100,Finance
+Macao,MO,0,Finance
+Madagascar,MG,100,Finance
+Malawi,MW,0,Finance
+Malaysia,MY,93,Finance
+Maldives,MV,0,Finance
+Mali,ML,0,Finance
+Malta,MT,100,Finance
+Marshall Islands,MH,0,Finance
+Martinique,MQ,0,Finance
+Mauritania,MR,0,Finance
+Mauritius,MU,100,Finance
+Mayotte,YT,0,Finance
+Mexico,MX,100,Finance
+Micronesia,FM,0,Finance
+Moldova,MD,0,Finance
+Monaco,MC,0,Finance
+Mongolia,MN,0,Finance
+Montenegro,ME,0,Finance
+Montserrat,MS,0,Finance
+Morocco,MA,100,Finance
+Mozambique,MZ,0,Finance
+Myanmar (Burma),MM,100,Finance
+Namibia,NA,0,Finance
+Nauru,NR,0,Finance
+Nepal,NP,100,Finance
+Netherlands,NL,95,Finance
+New Caledonia,NC,0,Finance
+New Zealand,NZ,100,Finance
+Nicaragua,NI,0,Finance
+Niger,NE,0,Finance
+Nigeria,NG,87,Finance
+Niue,NU,0,Finance
+Norfolk Island,NF,0,Finance
+North Korea,KP,0,Finance
+North Macedonia,MK,100,Finance
+Northern Mariana Islands,MP,0,Finance
+Norway,NO,100,Finance
+Oman,OM,100,Finance
+Pakistan,PK,86,Finance
+Palau,PW,0,Finance
+Palestine,PS,0,Finance
+Panama,PA,0,Finance
+Papua New Guinea,PG,100,Finance
+Paraguay,PY,0,Finance
+Peru,PE,100,Finance
+Philippines,PH,79,Finance
+Pitcairn Islands,PN,0,Finance
+Poland,PL,89,Finance
+Portugal,PT,100,Finance
+Puerto Rico,PR,0,Finance
+Qatar,QA,100,Finance
+Romania,RO,100,Finance
+Russia,RU,88,Finance
+Rwanda,RW,100,Finance
+Réunion,RE,0,Finance
+Samoa,WS,0,Finance
+San Marino,SM,0,Finance
+Saudi Arabia,SA,100,Finance
+Senegal,SN,100,Finance
+Serbia,RS,100,Finance
+Seychelles,SC,0,Finance
+Sierra Leone,SL,0,Finance
+Singapore,SG,92,Finance
+Sint Maarten,SX,0,Finance
+Slovakia,SK,100,Finance
+Slovenia,SI,100,Finance
+Solomon Islands,SB,0,Finance
+Somalia,SO,0,Finance
+South Africa,ZA,90,Finance
+South Georgia & South Sandwich Islands,GS,0,Finance
+South Korea,KR,100,Finance
+South Sudan,SS,0,Finance
+Spain,ES,95,Finance
+Sri Lanka,LK,100,Finance
+St. Barthélemy,BL,0,Finance
+St. Helena,SH,83,Finance
+St. Kitts & Nevis,KN,0,Finance
+St. Lucia,LC,0,Finance
+St. Martin,MF,0,Finance
+St. Pierre & Miquelon,PM,0,Finance
+St. Vincent & Grenadines,VC,0,Finance
+Sudan,SD,0,Finance
+Suriname,SR,0,Finance
+Svalbard & Jan Mayen,SJ,0,Finance
+Sweden,SE,100,Finance
+Switzerland,CH,96,Finance
+Syria,SY,0,Finance
+São Tomé & Príncipe,ST,0,Finance
+Taiwan,TW,100,Finance
+Tajikistan,TJ,0,Finance
+Tanzania,TZ,100,Finance
+Thailand,TH,100,Finance
+Timor-Leste,TL,0,Finance
+Togo,TG,100,Finance
+Tokelau,TK,0,Finance
+Tonga,TO,0,Finance
+Trinidad & Tobago,TT,0,Finance
+Tunisia,TN,100,Finance
+Turkmenistan,TM,0,Finance
+Turks & Caicos Islands,TC,0,Finance
+Tuvalu,TV,0,Finance
+Türkiye,TR,100,Finance
+U.S. Outlying Islands,UM,0,Finance
+U.S. Virgin Islands,VI,0,Finance
+Uganda,UG,100,Finance
+Ukraine,UA,100,Finance
+United Arab Emirates,AE,92,Finance
+United Kingdom,GB,95,Finance
+United States,US,82,Finance
+Uruguay,UY,0,Finance
+Uzbekistan,UZ,0,Finance
+Vanuatu,VU,0,Finance
+Vatican City,VA,0,Finance
+Venezuela,VE,100,Finance
+Vietnam,VN,93,Finance
+Wallis & Futuna,WF,0,Finance
+Western Sahara,EH,0,Finance
+Yemen,YE,0,Finance
+Zambia,ZM,100,Finance
+Zimbabwe,ZW,100,Finance
+Åland Islands,AX,0,Finance
+Afghanistan,AF,0,IoT
+Albania,AL,0,IoT
+Algeria,DZ,100,IoT
+American Samoa,AS,0,IoT
+Andorra,AD,0,IoT
+Angola,AO,0,IoT
+Anguilla,AI,0,IoT
+Antarctica,AQ,0,IoT
+Antigua & Barbuda,AG,0,IoT
+Argentina,AR,100,IoT
+Armenia,AM,0,IoT
+Aruba,AW,0,IoT
+Australia,AU,90,IoT
+Austria,AT,100,IoT
+Azerbaijan,AZ,0,IoT
+Bahamas,BS,0,IoT
+Bahrain,BH,0,IoT
+Bangladesh,BD,100,IoT
+Barbados,BB,0,IoT
+Belarus,BY,0,IoT
+Belgium,BE,100,IoT
+Belize,BZ,0,IoT
+Benin,BJ,0,IoT
+Bermuda,BM,0,IoT
+Bhutan,BT,0,IoT
+Bolivia,BO,0,IoT
+Bosnia & Herzegovina,BA,0,IoT
+Botswana,BW,0,IoT
+Bouvet Island,BV,0,IoT
+Brazil,BR,92,IoT
+British Indian Ocean Territory,IO,0,IoT
+British Virgin Islands,VG,0,IoT
+Brunei,BN,0,IoT
+Bulgaria,BG,100,IoT
+Burkina Faso,BF,0,IoT
+Burundi,BI,0,IoT
+Cambodia,KH,0,IoT
+Cameroon,CM,0,IoT
+Canada,CA,85,IoT
+Cape Verde,CV,0,IoT
+Caribbean Netherlands,BQ,0,IoT
+Cayman Islands,KY,0,IoT
+Central African Republic,CF,0,IoT
+Chad,TD,0,IoT
+Chile,CL,100,IoT
+China,CN,100,IoT
+Christmas Island,CX,0,IoT
+Cocos (Keeling) Islands,CC,0,IoT
+Colombia,CO,100,IoT
+Comoros,KM,0,IoT
+Congo - Brazzaville,CG,0,IoT
+Congo - Kinshasa,CD,0,IoT
+Cook Islands,CK,0,IoT
+Costa Rica,CR,0,IoT
+Croatia,HR,100,IoT
+Cuba,CU,0,IoT
+Curaçao,CW,0,IoT
+Cyprus,CY,0,IoT
+Czechia,CZ,100,IoT
+Côte d’Ivoire,CI,0,IoT
+Denmark,DK,100,IoT
+Djibouti,DJ,0,IoT
+Dominica,DM,0,IoT
+Dominican Republic,DO,0,IoT
+Ecuador,EC,0,IoT
+Egypt,EG,100,IoT
+El Salvador,SV,0,IoT
+Equatorial Guinea,GQ,0,IoT
+Eritrea,ER,0,IoT
+Estonia,EE,100,IoT
+Eswatini,SZ,0,IoT
+Ethiopia,ET,0,IoT
+Falkland Islands (Islas Malvinas),FK,0,IoT
+Faroe Islands,FO,0,IoT
+Fiji,FJ,0,IoT
+Finland,FI,100,IoT
+France,FR,95,IoT
+French Guiana,GF,0,IoT
+French Polynesia,PF,0,IoT
+French Southern Territories,TF,0,IoT
+Gabon,GA,0,IoT
+Gambia,GM,0,IoT
+Georgia,GE,0,IoT
+Germany,DE,91,IoT
+Ghana,GH,0,IoT
+Gibraltar,GI,0,IoT
+Greece,GR,100,IoT
+Greenland,GL,0,IoT
+Grenada,GD,0,IoT
+Guadeloupe,GP,0,IoT
+Guam,GU,0,IoT
+Guatemala,GT,0,IoT
+Guernsey,GG,0,IoT
+Guinea,GN,0,IoT
+Guinea-Bissau,GW,0,IoT
+Guyana,GY,0,IoT
+Haiti,HT,0,IoT
+Heard & McDonald Islands,HM,0,IoT
+Honduras,HN,0,IoT
+Hong Kong,HK,100,IoT
+Hungary,HU,100,IoT
+Iceland,IS,0,IoT
+India,IN,89,IoT
+Indonesia,ID,79,IoT
+Iran,IR,100,IoT
+Iraq,IQ,0,IoT
+Ireland,IE,100,IoT
+Isle of Man,IM,0,IoT
+Israel,IL,100,IoT
+Italy,IT,87,IoT
+Jamaica,JM,0,IoT
+Japan,JP,100,IoT
+Jersey,JE,0,IoT
+Jordan,JO,100,IoT
+Kazakhstan,KZ,100,IoT
+Kenya,KE,100,IoT
+Kiribati,KI,0,IoT
+Kosovo,XK,0,IoT
+Kuwait,KW,0,IoT
+Kyrgyzstan,KG,0,IoT
+Laos,LA,0,IoT
+Latvia,LV,0,IoT
+Lebanon,LB,0,IoT
+Lesotho,LS,0,IoT
+Liberia,LR,0,IoT
+Libya,LY,0,IoT
+Liechtenstein,LI,0,IoT
+Lithuania,LT,0,IoT
+Luxembourg,LU,0,IoT
+Macao,MO,0,IoT
+Madagascar,MG,0,IoT
+Malawi,MW,0,IoT
+Malaysia,MY,83,IoT
+Maldives,MV,0,IoT
+Mali,ML,0,IoT
+Malta,MT,0,IoT
+Marshall Islands,MH,0,IoT
+Martinique,MQ,0,IoT
+Mauritania,MR,0,IoT
+Mauritius,MU,0,IoT
+Mayotte,YT,0,IoT
+Mexico,MX,100,IoT
+Micronesia,FM,0,IoT
+Moldova,MD,0,IoT
+Monaco,MC,0,IoT
+Mongolia,MN,0,IoT
+Montenegro,ME,0,IoT
+Montserrat,MS,0,IoT
+Morocco,MA,100,IoT
+Mozambique,MZ,0,IoT
+Myanmar (Burma),MM,0,IoT
+Namibia,NA,0,IoT
+Nauru,NR,0,IoT
+Nepal,NP,0,IoT
+Netherlands,NL,86,IoT
+New Caledonia,NC,0,IoT
+New Zealand,NZ,100,IoT
+Nicaragua,NI,0,IoT
+Niger,NE,0,IoT
+Nigeria,NG,100,IoT
+Niue,NU,0,IoT
+Norfolk Island,NF,100,IoT
+North Korea,KP,0,IoT
+North Macedonia,MK,0,IoT
+Northern Mariana Islands,MP,0,IoT
+Norway,NO,100,IoT
+Oman,OM,0,IoT
+Pakistan,PK,100,IoT
+Palau,PW,0,IoT
+Palestine,PS,0,IoT
+Panama,PA,0,IoT
+Papua New Guinea,PG,0,IoT
+Paraguay,PY,0,IoT
+Peru,PE,100,IoT
+Philippines,PH,74,IoT
+Pitcairn Islands,PN,0,IoT
+Poland,PL,100,IoT
+Portugal,PT,100,IoT
+Puerto Rico,PR,0,IoT
+Qatar,QA,0,IoT
+Romania,RO,100,IoT
+Russia,RU,100,IoT
+Rwanda,RW,0,IoT
+Réunion,RE,0,IoT
+Samoa,WS,0,IoT
+San Marino,SM,0,IoT
+Saudi Arabia,SA,100,IoT
+Senegal,SN,0,IoT
+Serbia,RS,100,IoT
+Seychelles,SC,0,IoT
+Sierra Leone,SL,0,IoT
+Singapore,SG,92,IoT
+Sint Maarten,SX,0,IoT
+Slovakia,SK,100,IoT
+Slovenia,SI,0,IoT
+Solomon Islands,SB,0,IoT
+Somalia,SO,0,IoT
+South Africa,ZA,100,IoT
+South Georgia & South Sandwich Islands,GS,0,IoT
+South Korea,KR,100,IoT
+South Sudan,SS,0,IoT
+Spain,ES,100,IoT
+Sri Lanka,LK,100,IoT
+St. Barthélemy,BL,0,IoT
+St. Helena,SH,100,IoT
+St. Kitts & Nevis,KN,0,IoT
+St. Lucia,LC,0,IoT
+St. Martin,MF,0,IoT
+St. Pierre & Miquelon,PM,0,IoT
+St. Vincent & Grenadines,VC,0,IoT
+Sudan,SD,0,IoT
+Suriname,SR,0,IoT
+Svalbard & Jan Mayen,SJ,0,IoT
+Sweden,SE,100,IoT
+Switzerland,CH,84,IoT
+Syria,SY,0,IoT
+São Tomé & Príncipe,ST,0,IoT
+Taiwan,TW,100,IoT
+Tajikistan,TJ,0,IoT
+Tanzania,TZ,0,IoT
+Thailand,TH,86,IoT
+Timor-Leste,TL,0,IoT
+Togo,TG,0,IoT
+Tokelau,TK,0,IoT
+Tonga,TO,0,IoT
+Trinidad & Tobago,TT,0,IoT
+Tunisia,TN,100,IoT
+Turkmenistan,TM,0,IoT
+Turks & Caicos Islands,TC,0,IoT
+Tuvalu,TV,0,IoT
+Türkiye,TR,100,IoT
+U.S. Outlying Islands,UM,0,IoT
+U.S. Virgin Islands,VI,0,IoT
+Uganda,UG,0,IoT
+Ukraine,UA,100,IoT
+United Arab Emirates,AE,100,IoT
+United Kingdom,GB,79,IoT
+United States,US,84,IoT
+Uruguay,UY,100,IoT
+Uzbekistan,UZ,0,IoT
+Vanuatu,VU,0,IoT
+Vatican City,VA,0,IoT
+Venezuela,VE,0,IoT
+Vietnam,VN,100,IoT
+Wallis & Futuna,WF,0,IoT
+Western Sahara,EH,0,IoT
+Yemen,YE,0,IoT
+Zambia,ZM,0,IoT
+Zimbabwe,ZW,0,IoT
+Åland Islands,AX,0,IoT
+Afghanistan,AF,0,Logistics
+Albania,AL,0,Logistics
+Algeria,DZ,100,Logistics
+American Samoa,AS,0,Logistics
+Andorra,AD,0,Logistics
+Angola,AO,0,Logistics
+Anguilla,AI,0,Logistics
+Antarctica,AQ,0,Logistics
+Antigua & Barbuda,AG,0,Logistics
+Argentina,AR,72,Logistics
+Armenia,AM,0,Logistics
+Aruba,AW,0,Logistics
+Australia,AU,72,Logistics
+Austria,AT,48,Logistics
+Azerbaijan,AZ,0,Logistics
+Bahamas,BS,0,Logistics
+Bahrain,BH,0,Logistics
+Bangladesh,BD,63,Logistics
+Barbados,BB,0,Logistics
+Belarus,BY,0,Logistics
+Belgium,BE,53,Logistics
+Belize,BZ,0,Logistics
+Benin,BJ,0,Logistics
+Bermuda,BM,0,Logistics
+Bhutan,BT,0,Logistics
+Bolivia,BO,0,Logistics
+Bosnia & Herzegovina,BA,0,Logistics
+Botswana,BW,0,Logistics
+Bouvet Island,BV,0,Logistics
+Brazil,BR,79,Logistics
+British Indian Ocean Territory,IO,0,Logistics
+British Virgin Islands,VG,0,Logistics
+Brunei,BN,0,Logistics
+Bulgaria,BG,0,Logistics
+Burkina Faso,BF,0,Logistics
+Burundi,BI,0,Logistics
+Cambodia,KH,0,Logistics
+Cameroon,CM,0,Logistics
+Canada,CA,62,Logistics
+Cape Verde,CV,0,Logistics
+Caribbean Netherlands,BQ,0,Logistics
+Cayman Islands,KY,0,Logistics
+Central African Republic,CF,0,Logistics
+Chad,TD,0,Logistics
+Chile,CL,65,Logistics
+China,CN,100,Logistics
+Christmas Island,CX,0,Logistics
+Cocos (Keeling) Islands,CC,0,Logistics
+Colombia,CO,54,Logistics
+Comoros,KM,0,Logistics
+Congo - Brazzaville,CG,0,Logistics
+Congo - Kinshasa,CD,0,Logistics
+Cook Islands,CK,0,Logistics
+Costa Rica,CR,58,Logistics
+Croatia,HR,100,Logistics
+Cuba,CU,0,Logistics
+Curaçao,CW,0,Logistics
+Cyprus,CY,0,Logistics
+Czechia,CZ,71,Logistics
+Côte d’Ivoire,CI,0,Logistics
+Denmark,DK,55,Logistics
+Djibouti,DJ,0,Logistics
+Dominica,DM,0,Logistics
+Dominican Republic,DO,0,Logistics
+Ecuador,EC,100,Logistics
+Egypt,EG,59,Logistics
+El Salvador,SV,0,Logistics
+Equatorial Guinea,GQ,0,Logistics
+Eritrea,ER,0,Logistics
+Estonia,EE,0,Logistics
+Eswatini,SZ,0,Logistics
+Ethiopia,ET,100,Logistics
+Falkland Islands (Islas Malvinas),FK,0,Logistics
+Faroe Islands,FO,0,Logistics
+Fiji,FJ,0,Logistics
+Finland,FI,75,Logistics
+France,FR,47,Logistics
+French Guiana,GF,0,Logistics
+French Polynesia,PF,0,Logistics
+French Southern Territories,TF,0,Logistics
+Gabon,GA,0,Logistics
+Gambia,GM,0,Logistics
+Georgia,GE,0,Logistics
+Germany,DE,47,Logistics
+Ghana,GH,57,Logistics
+Gibraltar,GI,0,Logistics
+Greece,GR,74,Logistics
+Greenland,GL,0,Logistics
+Grenada,GD,0,Logistics
+Guadeloupe,GP,0,Logistics
+Guam,GU,0,Logistics
+Guatemala,GT,100,Logistics
+Guernsey,GG,0,Logistics
+Guinea,GN,0,Logistics
+Guinea-Bissau,GW,0,Logistics
+Guyana,GY,0,Logistics
+Haiti,HT,0,Logistics
+Heard & McDonald Islands,HM,0,Logistics
+Honduras,HN,0,Logistics
+Hong Kong,HK,45,Logistics
+Hungary,HU,51,Logistics
+Iceland,IS,0,Logistics
+India,IN,60,Logistics
+Indonesia,ID,37,Logistics
+Iran,IR,62,Logistics
+Iraq,IQ,100,Logistics
+Ireland,IE,81,Logistics
+Isle of Man,IM,0,Logistics
+Israel,IL,52,Logistics
+Italy,IT,67,Logistics
+Jamaica,JM,0,Logistics
+Japan,JP,52,Logistics
+Jersey,JE,0,Logistics
+Jordan,JO,0,Logistics
+Kazakhstan,KZ,100,Logistics
+Kenya,KE,45,Logistics
+Kiribati,KI,100,Logistics
+Kosovo,XK,0,Logistics
+Kuwait,KW,100,Logistics
+Kyrgyzstan,KG,0,Logistics
+Laos,LA,100,Logistics
+Latvia,LV,0,Logistics
+Lebanon,LB,100,Logistics
+Lesotho,LS,0,Logistics
+Liberia,LR,0,Logistics
+Libya,LY,0,Logistics
+Liechtenstein,LI,0,Logistics
+Lithuania,LT,0,Logistics
+Luxembourg,LU,0,Logistics
+Macao,MO,0,Logistics
+Madagascar,MG,0,Logistics
+Malawi,MW,0,Logistics
+Malaysia,MY,67,Logistics
+Maldives,MV,0,Logistics
+Mali,ML,0,Logistics
+Malta,MT,0,Logistics
+Marshall Islands,MH,0,Logistics
+Martinique,MQ,0,Logistics
+Mauritania,MR,0,Logistics
+Mauritius,MU,0,Logistics
+Mayotte,YT,0,Logistics
+Mexico,MX,53,Logistics
+Micronesia,FM,0,Logistics
+Moldova,MD,0,Logistics
+Monaco,MC,0,Logistics
+Mongolia,MN,0,Logistics
+Montenegro,ME,0,Logistics
+Montserrat,MS,0,Logistics
+Morocco,MA,39,Logistics
+Mozambique,MZ,0,Logistics
+Myanmar (Burma),MM,0,Logistics
+Namibia,NA,0,Logistics
+Nauru,NR,0,Logistics
+Nepal,NP,100,Logistics
+Netherlands,NL,52,Logistics
+New Caledonia,NC,0,Logistics
+New Zealand,NZ,100,Logistics
+Nicaragua,NI,0,Logistics
+Niger,NE,0,Logistics
+Nigeria,NG,46,Logistics
+Niue,NU,0,Logistics
+Norfolk Island,NF,0,Logistics
+North Korea,KP,0,Logistics
+North Macedonia,MK,0,Logistics
+Northern Mariana Islands,MP,0,Logistics
+Norway,NO,100,Logistics
+Oman,OM,0,Logistics
+Pakistan,PK,60,Logistics
+Palau,PW,0,Logistics
+Palestine,PS,0,Logistics
+Panama,PA,0,Logistics
+Papua New Guinea,PG,0,Logistics
+Paraguay,PY,0,Logistics
+Peru,PE,100,Logistics
+Philippines,PH,61,Logistics
+Pitcairn Islands,PN,0,Logistics
+Poland,PL,51,Logistics
+Portugal,PT,67,Logistics
+Puerto Rico,PR,0,Logistics
+Qatar,QA,100,Logistics
+Romania,RO,100,Logistics
+Russia,RU,61,Logistics
+Rwanda,RW,0,Logistics
+Réunion,RE,0,Logistics
+Samoa,WS,0,Logistics
+San Marino,SM,0,Logistics
+Saudi Arabia,SA,58,Logistics
+Senegal,SN,0,Logistics
+Serbia,RS,100,Logistics
+Seychelles,SC,0,Logistics
+Sierra Leone,SL,0,Logistics
+Singapore,SG,46,Logistics
+Sint Maarten,SX,0,Logistics
+Slovakia,SK,100,Logistics
+Slovenia,SI,0,Logistics
+Solomon Islands,SB,0,Logistics
+Somalia,SO,0,Logistics
+South Africa,ZA,46,Logistics
+South Georgia & South Sandwich Islands,GS,0,Logistics
+South Korea,KR,49,Logistics
+South Sudan,SS,0,Logistics
+Spain,ES,54,Logistics
+Sri Lanka,LK,100,Logistics
+St. Barthélemy,BL,0,Logistics
+St. Helena,SH,60,Logistics
+St. Kitts & Nevis,KN,0,Logistics
+St. Lucia,LC,0,Logistics
+St. Martin,MF,0,Logistics
+St. Pierre & Miquelon,PM,0,Logistics
+St. Vincent & Grenadines,VC,0,Logistics
+Sudan,SD,0,Logistics
+Suriname,SR,0,Logistics
+Svalbard & Jan Mayen,SJ,0,Logistics
+Sweden,SE,50,Logistics
+Switzerland,CH,54,Logistics
+Syria,SY,0,Logistics
+São Tomé & Príncipe,ST,0,Logistics
+Taiwan,TW,57,Logistics
+Tajikistan,TJ,0,Logistics
+Tanzania,TZ,0,Logistics
+Thailand,TH,52,Logistics
+Timor-Leste,TL,0,Logistics
+Togo,TG,0,Logistics
+Tokelau,TK,0,Logistics
+Tonga,TO,0,Logistics
+Trinidad & Tobago,TT,0,Logistics
+Tunisia,TN,100,Logistics
+Turkmenistan,TM,0,Logistics
+Turks & Caicos Islands,TC,0,Logistics
+Tuvalu,TV,0,Logistics
+Türkiye,TR,52,Logistics
+U.S. Outlying Islands,UM,0,Logistics
+U.S. Virgin Islands,VI,0,Logistics
+Uganda,UG,0,Logistics
+Ukraine,UA,77,Logistics
+United Arab Emirates,AE,55,Logistics
+United Kingdom,GB,66,Logistics
+United States,US,66,Logistics
+Uruguay,UY,0,Logistics
+Uzbekistan,UZ,0,Logistics
+Vanuatu,VU,0,Logistics
+Vatican City,VA,0,Logistics
+Venezuela,VE,100,Logistics
+Vietnam,VN,52,Logistics
+Wallis & Futuna,WF,0,Logistics
+Western Sahara,EH,0,Logistics
+Yemen,YE,0,Logistics
+Zambia,ZM,0,Logistics
+Zimbabwe,ZW,0,Logistics
+Åland Islands,AX,0,Logistics
+Afghanistan,AF,0,Tech
+Albania,AL,77,Tech
+Algeria,DZ,69,Tech
+American Samoa,AS,0,Tech
+Andorra,AD,0,Tech
+Angola,AO,61,Tech
+Anguilla,AI,0,Tech
+Antarctica,AQ,0,Tech
+Antigua & Barbuda,AG,0,Tech
+Argentina,AR,80,Tech
+Armenia,AM,72,Tech
+Aruba,AW,0,Tech
+Australia,AU,79,Tech
+Austria,AT,78,Tech
+Azerbaijan,AZ,68,Tech
+Bahamas,BS,100,Tech
+Bahrain,BH,80,Tech
+Bangladesh,BD,74,Tech
+Barbados,BB,100,Tech
+Belarus,BY,75,Tech
+Belgium,BE,79,Tech
+Belize,BZ,0,Tech
+Benin,BJ,100,Tech
+Bermuda,BM,0,Tech
+Bhutan,BT,100,Tech
+Bolivia,BO,100,Tech
+Bosnia & Herzegovina,BA,60,Tech
+Botswana,BW,71,Tech
+Bouvet Island,BV,0,Tech
+Brazil,BR,81,Tech
+British Indian Ocean Territory,IO,0,Tech
+British Virgin Islands,VG,0,Tech
+Brunei,BN,0,Tech
+Bulgaria,BG,71,Tech
+Burkina Faso,BF,100,Tech
+Burundi,BI,0,Tech
+Cambodia,KH,77,Tech
+Cameroon,CM,81,Tech
+Canada,CA,82,Tech
+Cape Verde,CV,0,Tech
+Caribbean Netherlands,BQ,0,Tech
+Cayman Islands,KY,0,Tech
+Central African Republic,CF,0,Tech
+Chad,TD,0,Tech
+Chile,CL,80,Tech
+China,CN,64,Tech
+Christmas Island,CX,0,Tech
+Cocos (Keeling) Islands,CC,0,Tech
+Colombia,CO,77,Tech
+Comoros,KM,0,Tech
+Congo - Brazzaville,CG,0,Tech
+Congo - Kinshasa,CD,100,Tech
+Cook Islands,CK,0,Tech
+Costa Rica,CR,72,Tech
+Croatia,HR,83,Tech
+Cuba,CU,0,Tech
+Curaçao,CW,0,Tech
+Cyprus,CY,75,Tech
+Czechia,CZ,70,Tech
+Côte d’Ivoire,CI,100,Tech
+Denmark,DK,83,Tech
+Djibouti,DJ,0,Tech
+Dominica,DM,0,Tech
+Dominican Republic,DO,74,Tech
+Ecuador,EC,86,Tech
+Egypt,EG,73,Tech
+El Salvador,SV,100,Tech
+Equatorial Guinea,GQ,0,Tech
+Eritrea,ER,0,Tech
+Estonia,EE,70,Tech
+Eswatini,SZ,0,Tech
+Ethiopia,ET,69,Tech
+Falkland Islands (Islas Malvinas),FK,0,Tech
+Faroe Islands,FO,0,Tech
+Fiji,FJ,0,Tech
+Finland,FI,69,Tech
+France,FR,85,Tech
+French Guiana,GF,0,Tech
+French Polynesia,PF,0,Tech
+French Southern Territories,TF,0,Tech
+Gabon,GA,0,Tech
+Gambia,GM,100,Tech
+Georgia,GE,69,Tech
+Germany,DE,79,Tech
+Ghana,GH,77,Tech
+Gibraltar,GI,0,Tech
+Greece,GR,76,Tech
+Greenland,GL,0,Tech
+Grenada,GD,0,Tech
+Guadeloupe,GP,0,Tech
+Guam,GU,0,Tech
+Guatemala,GT,60,Tech
+Guernsey,GG,0,Tech
+Guinea,GN,0,Tech
+Guinea-Bissau,GW,0,Tech
+Guyana,GY,0,Tech
+Haiti,HT,0,Tech
+Heard & McDonald Islands,HM,0,Tech
+Honduras,HN,100,Tech
+Hong Kong,HK,64,Tech
+Hungary,HU,75,Tech
+Iceland,IS,100,Tech
+India,IN,59,Tech
+Indonesia,ID,74,Tech
+Iran,IR,56,Tech
+Iraq,IQ,79,Tech
+Ireland,IE,77,Tech
+Isle of Man,IM,0,Tech
+Israel,IL,73,Tech
+Italy,IT,75,Tech
+Jamaica,JM,64,Tech
+Japan,JP,74,Tech
+Jersey,JE,100,Tech
+Jordan,JO,73,Tech
+Kazakhstan,KZ,71,Tech
+Kenya,KE,76,Tech
+Kiribati,KI,0,Tech
+Kosovo,XK,100,Tech
+Kuwait,KW,69,Tech
+Kyrgyzstan,KG,100,Tech
+Laos,LA,79,Tech
+Latvia,LV,78,Tech
+Lebanon,LB,79,Tech
+Lesotho,LS,0,Tech
+Liberia,LR,0,Tech
+Libya,LY,100,Tech
+Liechtenstein,LI,0,Tech
+Lithuania,LT,79,Tech
+Luxembourg,LU,85,Tech
+Macao,MO,0,Tech
+Madagascar,MG,100,Tech
+Malawi,MW,100,Tech
+Malaysia,MY,72,Tech
+Maldives,MV,100,Tech
+Mali,ML,100,Tech
+Malta,MT,100,Tech
+Marshall Islands,MH,0,Tech
+Martinique,MQ,0,Tech
+Mauritania,MR,0,Tech
+Mauritius,MU,100,Tech
+Mayotte,YT,0,Tech
+Mexico,MX,70,Tech
+Micronesia,FM,0,Tech
+Moldova,MD,100,Tech
+Monaco,MC,0,Tech
+Mongolia,MN,60,Tech
+Montenegro,ME,100,Tech
+Montserrat,MS,0,Tech
+Morocco,MA,77,Tech
+Mozambique,MZ,100,Tech
+Myanmar (Burma),MM,50,Tech
+Namibia,NA,100,Tech
+Nauru,NR,0,Tech
+Nepal,NP,65,Tech
+Netherlands,NL,80,Tech
+New Caledonia,NC,100,Tech
+New Zealand,NZ,81,Tech
+Nicaragua,NI,100,Tech
+Niger,NE,0,Tech
+Nigeria,NG,84,Tech
+Niue,NU,0,Tech
+Norfolk Island,NF,0,Tech
+North Korea,KP,0,Tech
+North Macedonia,MK,72,Tech
+Northern Mariana Islands,MP,0,Tech
+Norway,NO,77,Tech
+Oman,OM,73,Tech
+Pakistan,PK,72,Tech
+Palau,PW,0,Tech
+Palestine,PS,78,Tech
+Panama,PA,72,Tech
+Papua New Guinea,PG,0,Tech
+Paraguay,PY,100,Tech
+Peru,PE,74,Tech
+Philippines,PH,67,Tech
+Pitcairn Islands,PN,0,Tech
+Poland,PL,70,Tech
+Portugal,PT,81,Tech
+Puerto Rico,PR,71,Tech
+Qatar,QA,74,Tech
+Romania,RO,77,Tech
+Russia,RU,76,Tech
+Rwanda,RW,80,Tech
+Réunion,RE,100,Tech
+Samoa,WS,0,Tech
+San Marino,SM,0,Tech
+Saudi Arabia,SA,70,Tech
+Senegal,SN,100,Tech
+Serbia,RS,75,Tech
+Seychelles,SC,0,Tech
+Sierra Leone,SL,100,Tech
+Singapore,SG,75,Tech
+Sint Maarten,SX,0,Tech
+Slovakia,SK,62,Tech
+Slovenia,SI,72,Tech
+Solomon Islands,SB,0,Tech
+Somalia,SO,100,Tech
+South Africa,ZA,78,Tech
+South Georgia & South Sandwich Islands,GS,0,Tech
+South Korea,KR,73,Tech
+South Sudan,SS,0,Tech
+Spain,ES,78,Tech
+Sri Lanka,LK,71,Tech
+St. Barthélemy,BL,0,Tech
+St. Helena,SH,66,Tech
+St. Kitts & Nevis,KN,0,Tech
+St. Lucia,LC,0,Tech
+St. Martin,MF,0,Tech
+St. Pierre & Miquelon,PM,100,Tech
+St. Vincent & Grenadines,VC,0,Tech
+Sudan,SD,100,Tech
+Suriname,SR,0,Tech
+Svalbard & Jan Mayen,SJ,0,Tech
+Sweden,SE,86,Tech
+Switzerland,CH,73,Tech
+Syria,SY,100,Tech
+São Tomé & Príncipe,ST,0,Tech
+Taiwan,TW,74,Tech
+Tajikistan,TJ,0,Tech
+Tanzania,TZ,64,Tech
+Thailand,TH,80,Tech
+Timor-Leste,TL,0,Tech
+Togo,TG,100,Tech
+Tokelau,TK,0,Tech
+Tonga,TO,0,Tech
+Trinidad & Tobago,TT,71,Tech
+Tunisia,TN,68,Tech
+Turkmenistan,TM,0,Tech
+Turks & Caicos Islands,TC,0,Tech
+Tuvalu,TV,0,Tech
+Türkiye,TR,68,Tech
+U.S. Outlying Islands,UM,0,Tech
+U.S. Virgin Islands,VI,0,Tech
+Uganda,UG,75,Tech
+Ukraine,UA,82,Tech
+United Arab Emirates,AE,74,Tech
+United Kingdom,GB,84,Tech
+United States,US,77,Tech
+Uruguay,UY,73,Tech
+Uzbekistan,UZ,80,Tech
+Vanuatu,VU,0,Tech
+Vatican City,VA,0,Tech
+Venezuela,VE,71,Tech
+Vietnam,VN,73,Tech
+Wallis & Futuna,WF,0,Tech
+Western Sahara,EH,0,Tech
+Yemen,YE,0,Tech
+Zambia,ZM,84,Tech
+Zimbabwe,ZW,73,Tech
+Åland Islands,AX,0,Tech
+Afghanistan,AF,0,Education
+Albania,AL,0,Education
+Algeria,DZ,100,Education
+American Samoa,AS,0,Education
+Andorra,AD,0,Education
+Angola,AO,0,Education
+Anguilla,AI,0,Education
+Antarctica,AQ,0,Education
+Antigua & Barbuda,AG,0,Education
+Argentina,AR,100,Education
+Armenia,AM,100,Education
+Aruba,AW,0,Education
+Australia,AU,100,Education
+Austria,AT,100,Education
+Azerbaijan,AZ,100,Education
+Bahamas,BS,0,Education
+Bahrain,BH,0,Education
+Bangladesh,BD,100,Education
+Barbados,BB,0,Education
+Belarus,BY,0,Education
+Belgium,BE,100,Education
+Belize,BZ,0,Education
+Benin,BJ,0,Education
+Bermuda,BM,0,Education
+Bhutan,BT,0,Education
+Bolivia,BO,0,Education
+Bosnia & Herzegovina,BA,0,Education
+Botswana,BW,100,Education
+Bouvet Island,BV,0,Education
+Brazil,BR,100,Education
+British Indian Ocean Territory,IO,0,Education
+British Virgin Islands,VG,0,Education
+Brunei,BN,0,Education
+Bulgaria,BG,0,Education
+Burkina Faso,BF,0,Education
+Burundi,BI,0,Education
+Cambodia,KH,100,Education
+Cameroon,CM,0,Education
+Canada,CA,100,Education
+Cape Verde,CV,0,Education
+Caribbean Netherlands,BQ,0,Education
+Cayman Islands,KY,0,Education
+Central African Republic,CF,0,Education
+Chad,TD,0,Education
+Chile,CL,100,Education
+China,CN,100,Education
+Christmas Island,CX,0,Education
+Cocos (Keeling) Islands,CC,0,Education
+Colombia,CO,100,Education
+Comoros,KM,0,Education
+Congo - Brazzaville,CG,100,Education
+Congo - Kinshasa,CD,0,Education
+Cook Islands,CK,0,Education
+Costa Rica,CR,100,Education
+Croatia,HR,100,Education
+Cuba,CU,0,Education
+Curaçao,CW,0,Education
+Cyprus,CY,0,Education
+Czechia,CZ,100,Education
+Côte d’Ivoire,CI,0,Education
+Denmark,DK,100,Education
+Djibouti,DJ,0,Education
+Dominica,DM,0,Education
+Dominican Republic,DO,0,Education
+Ecuador,EC,100,Education
+Egypt,EG,100,Education
+El Salvador,SV,0,Education
+Equatorial Guinea,GQ,0,Education
+Eritrea,ER,0,Education
+Estonia,EE,100,Education
+Eswatini,SZ,0,Education
+Ethiopia,ET,100,Education
+Falkland Islands (Islas Malvinas),FK,0,Education
+Faroe Islands,FO,0,Education
+Fiji,FJ,0,Education
+Finland,FI,100,Education
+France,FR,96,Education
+French Guiana,GF,0,Education
+French Polynesia,PF,0,Education
+French Southern Territories,TF,0,Education
+Gabon,GA,0,Education
+Gambia,GM,0,Education
+Georgia,GE,100,Education
+Germany,DE,93,Education
+Ghana,GH,100,Education
+Gibraltar,GI,0,Education
+Greece,GR,100,Education
+Greenland,GL,0,Education
+Grenada,GD,0,Education
+Guadeloupe,GP,0,Education
+Guam,GU,0,Education
+Guatemala,GT,0,Education
+Guernsey,GG,0,Education
+Guinea,GN,0,Education
+Guinea-Bissau,GW,0,Education
+Guyana,GY,0,Education
+Haiti,HT,0,Education
+Heard & McDonald Islands,HM,0,Education
+Honduras,HN,0,Education
+Hong Kong,HK,100,Education
+Hungary,HU,100,Education
+Iceland,IS,0,Education
+India,IN,99,Education
+Indonesia,ID,92,Education
+Iran,IR,100,Education
+Iraq,IQ,0,Education
+Ireland,IE,100,Education
+Isle of Man,IM,0,Education
+Israel,IL,100,Education
+Italy,IT,90,Education
+Jamaica,JM,0,Education
+Japan,JP,100,Education
+Jersey,JE,0,Education
+Jordan,JO,100,Education
+Kazakhstan,KZ,71,Education
+Kenya,KE,100,Education
+Kiribati,KI,0,Education
+Kosovo,XK,0,Education
+Kuwait,KW,0,Education
+Kyrgyzstan,KG,0,Education
+Laos,LA,0,Education
+Latvia,LV,0,Education
+Lebanon,LB,100,Education
+Lesotho,LS,0,Education
+Liberia,LR,0,Education
+Libya,LY,0,Education
+Liechtenstein,LI,0,Education
+Lithuania,LT,100,Education
+Luxembourg,LU,0,Education
+Macao,MO,0,Education
+Madagascar,MG,0,Education
+Malawi,MW,0,Education
+Malaysia,MY,100,Education
+Maldives,MV,0,Education
+Mali,ML,0,Education
+Malta,MT,0,Education
+Marshall Islands,MH,0,Education
+Martinique,MQ,0,Education
+Mauritania,MR,0,Education
+Mauritius,MU,0,Education
+Mayotte,YT,0,Education
+Mexico,MX,100,Education
+Micronesia,FM,0,Education
+Moldova,MD,0,Education
+Monaco,MC,0,Education
+Mongolia,MN,0,Education
+Montenegro,ME,0,Education
+Montserrat,MS,0,Education
+Morocco,MA,100,Education
+Mozambique,MZ,0,Education
+Myanmar (Burma),MM,0,Education
+Namibia,NA,0,Education
+Nauru,NR,0,Education
+Nepal,NP,100,Education
+Netherlands,NL,100,Education
+New Caledonia,NC,0,Education
+New Zealand,NZ,100,Education
+Nicaragua,NI,0,Education
+Niger,NE,0,Education
+Nigeria,NG,100,Education
+Niue,NU,0,Education
+Norfolk Island,NF,0,Education
+North Korea,KP,0,Education
+North Macedonia,MK,0,Education
+Northern Mariana Islands,MP,0,Education
+Norway,NO,100,Education
+Oman,OM,0,Education
+Pakistan,PK,100,Education
+Palau,PW,0,Education
+Palestine,PS,0,Education
+Panama,PA,0,Education
+Papua New Guinea,PG,0,Education
+Paraguay,PY,0,Education
+Peru,PE,100,Education
+Philippines,PH,100,Education
+Pitcairn Islands,PN,0,Education
+Poland,PL,100,Education
+Portugal,PT,100,Education
+Puerto Rico,PR,100,Education
+Qatar,QA,100,Education
+Romania,RO,100,Education
+Russia,RU,100,Education
+Rwanda,RW,0,Education
+Réunion,RE,0,Education
+Samoa,WS,0,Education
+San Marino,SM,0,Education
+Saudi Arabia,SA,100,Education
+Senegal,SN,0,Education
+Serbia,RS,100,Education
+Seychelles,SC,0,Education
+Sierra Leone,SL,0,Education
+Singapore,SG,100,Education
+Sint Maarten,SX,0,Education
+Slovakia,SK,100,Education
+Slovenia,SI,0,Education
+Solomon Islands,SB,0,Education
+Somalia,SO,0,Education
+South Africa,ZA,100,Education
+South Georgia & South Sandwich Islands,GS,0,Education
+South Korea,KR,100,Education
+South Sudan,SS,0,Education
+Spain,ES,93,Education
+Sri Lanka,LK,100,Education
+St. Barthélemy,BL,0,Education
+St. Helena,SH,100,Education
+St. Kitts & Nevis,KN,0,Education
+St. Lucia,LC,0,Education
+St. Martin,MF,0,Education
+St. Pierre & Miquelon,PM,0,Education
+St. Vincent & Grenadines,VC,100,Education
+Sudan,SD,0,Education
+Suriname,SR,0,Education
+Svalbard & Jan Mayen,SJ,0,Education
+Sweden,SE,100,Education
+Switzerland,CH,100,Education
+Syria,SY,0,Education
+São Tomé & Príncipe,ST,100,Education
+Taiwan,TW,100,Education
+Tajikistan,TJ,0,Education
+Tanzania,TZ,100,Education
+Thailand,TH,72,Education
+Timor-Leste,TL,0,Education
+Togo,TG,0,Education
+Tokelau,TK,0,Education
+Tonga,TO,0,Education
+Trinidad & Tobago,TT,0,Education
+Tunisia,TN,100,Education
+Turkmenistan,TM,0,Education
+Turks & Caicos Islands,TC,0,Education
+Tuvalu,TV,0,Education
+Türkiye,TR,100,Education
+U.S. Outlying Islands,UM,0,Education
+U.S. Virgin Islands,VI,0,Education
+Uganda,UG,100,Education
+Ukraine,UA,100,Education
+United Arab Emirates,AE,100,Education
+United Kingdom,GB,98,Education
+United States,US,99,Education
+Uruguay,UY,0,Education
+Uzbekistan,UZ,100,Education
+Vanuatu,VU,0,Education
+Vatican City,VA,0,Education
+Venezuela,VE,0,Education
+Vietnam,VN,100,Education
+Wallis & Futuna,WF,0,Education
+Western Sahara,EH,0,Education
+Yemen,YE,0,Education
+Zambia,ZM,100,Education
+Zimbabwe,ZW,100,Education
+Åland Islands,AX,0,Education

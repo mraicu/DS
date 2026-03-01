@@ -2,50 +2,40 @@ import os
 import numpy as np
 import pandas as pd
 import torch
+import joblib
 from torch.utils.data import DataLoader, TensorDataset
 from torch import optim, nn
 
 from LogisticRegression import LogisticRegressionModel
 
 
+from preprocessor import GrowthPreprocessor 
+
+
 def main():
     # Paths
     here = os.path.dirname(os.path.abspath(__file__))
-    data_path = os.path.abspath(os.path.join(here, "..", "app", "data", "startup_growth_processed.csv"))
+    data_path = os.path.abspath(os.path.join(here, "..", "app", "data", "startup_data_growth.csv"))
     repo_root = os.path.abspath(os.path.join(here, "..", ".."))
-    save_path = os.path.join(repo_root, "model.pt")
+    model_path = os.path.join(repo_root, "model.pt")
+    preproc_path = os.path.join(repo_root, "preprocessor.pkl")
 
-    # Load dataset
+    # Load raw dataset (original columns: Startup Name, Industry, Region, Exit Status, etc.)
     df = pd.read_csv(data_path)
 
-    target_col = "Profitable"
-    drop_cols = [c for c in ["Startup_Name"] if c in df.columns]
+    # --- Preprocessing ---
+    preproc = GrowthPreprocessor()
+    X_df, y_series = preproc.fit_transform(df)
 
-    X_df = df.drop(columns=[target_col] + drop_cols)
-    y_series = df[target_col].astype(float)
-
-    # One-hot encode categorical columns
-    X_df = pd.get_dummies(X_df, drop_first=True)
-
-    # DEBUG: show non-numeric columns
-    non_numeric = X_df.select_dtypes(include=["object"]).columns
-    if len(non_numeric) > 0:
-        print("Non-numeric columns detected:", list(non_numeric))
-
-    # Convert everything to numeric
-    X_df = X_df.apply(pd.to_numeric, errors="coerce")
-
-    # Fill any NaNs that might result
-    X_df = X_df.fillna(0)
-
-    # Final safety check
-    print("All columns numeric:", all(np.issubdtype(dt, np.number) for dt in X_df.dtypes))
+    # Quick sanity check
+    print("Training feature columns:", len(preproc.feature_cols))
+    print("First few columns:", preproc.feature_cols[:5])
 
     # Convert to tensors
     X = torch.tensor(X_df.to_numpy(dtype=np.float32))
     y = torch.tensor(y_series.to_numpy(dtype=np.float32).reshape(-1, 1))
 
-    # Train/validation split
+    # Train/val split
     n = X.shape[0]
     idx = np.random.RandomState(42).permutation(n)
     split = int(0.8 * n)
@@ -80,9 +70,18 @@ def main():
             total_loss += loss.item()
         print(f"Epoch {epoch+1}/{epochs}, Loss: {total_loss:.4f}")
 
-    torch.save(model.state_dict(), save_path)
-    print(f"Model saved to {save_path}")
+    # Save model
+    torch.save(model.state_dict(), model_path)
+    print(f"Model saved to {model_path}")
 
+    # Save preprocessor
+    joblib.dump({
+    "numeric_cols": preproc.numeric_cols,
+    "feature_cols": preproc.feature_cols,
+    "scaler": preproc.scaler
+    }, preproc_path)
+
+    print(f"Preprocessor saved to {preproc_path}")
 
 if __name__ == "__main__":
     main()

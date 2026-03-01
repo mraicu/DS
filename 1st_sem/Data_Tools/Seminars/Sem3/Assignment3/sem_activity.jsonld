@@ -1,0 +1,66 @@
+{
+ "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/"
+  },
+    
+  "@type": "schema:Dataset",
+
+  "dc:title": "KarstCave_FormationData_2024",
+
+  "dc:creator": [
+    "Karst Cave Research Team",
+    "Dr. Ana Kovač (Principal Investigator)"
+  ],
+
+  "dc:subject": [
+    "karst geology",
+    "speleothems",
+    "cave microclimate",
+    "mineral composition",
+    "X-ray diffraction",
+    "Postojna Cave",
+    "Slovenia"
+  ],
+
+  "dc:description": "Dataset containing mineral composition, speleothem formation types, and environmental measurements for 150 rock samples collected in the Postojna Cave System (Slovenia) between March and July 2024. Includes GPS coordinates, temperature, humidity, and XRD mineral identification.",
+
+  "dc:publisher": "Karst Research Institute, Slovenia",
+
+  "dc:contributor": [
+    "Luka Marin (Data Manager)",
+    "Field Sampling Team"
+  ],
+
+  "dc:date": "2024",
+
+  "dc:type": "Dataset",
+
+  "dc:format": [
+    "text/csv",
+    "application/pdf",
+    "image/png",
+    "image/jpeg",
+    "text/plain"
+  ],
+
+  "dc:identifier": "KarstCave_FormationData_2024",
+
+  "dc:source": "Primary field sampling and laboratory XRD analysis conducted by the Karst Research Institute during the 2024 Postojna Cave Survey",
+
+  "dc:language": "en",
+
+  "dc:relation": "Related project: Postojna Cave Speleothem Microclimate Survey 2023–2025",
+
+  "dc:coverage": "Postojna Cave System, Slovenia; March–July 2024",
+
+  "dc:rights": "© 2024 Karst Cave Research Team. All rights reserved. Contact the dataset curator for reuse permissions.",
+
+  "schema:contactPoint": {
+    "@type": "schema:ContactPoint",
+    "schema:contactType": "dataset curator",
+    "schema:name": "Karst Cave Research Team",
+    "schema:email": "contact@example.org"
+  }
+}

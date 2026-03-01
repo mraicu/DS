@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@type": "schema:Dataset",
+
+  "dc:title": "COVID-19 Open Research Dataset Challenge (CORD-19)",
+
+  "dc:creator": [
+    "Semantic Scholar team, Allen Institute for AI",
+    "COVID-19 Open Research Dataset (CORD-19) collaborators"
+  ],
+
+  "dc:subject": [
+    "COVID-19",
+    "SARS-CoV-2",
+    "coronavirus",
+    "scientific literature",
+    "biomedical research",
+    "natural language processing",
+    "text mining",
+    "epidemiology",
+    "public health"
+  ],
+
+  "dc:description": "CORD-19 is a corpus of academic papers about COVID-19 and related coronavirus research. It contains full text and metadata for a large collection of scholarly articles, optimized for machine readability and curated to support text mining, information retrieval, and NLP research on COVID-19 and coronaviruses.",
+
+  "dc:publisher": "Allen Institute for AI (AI2)",
+
+  "dc:contributor": [
+    "Semantic Scholar",
+    "Chan Zuckerberg Initiative",
+    "Georgetown University Center for Security and Emerging Technology",
+    "Microsoft Research",
+    "U.S. National Library of Medicine",
+    "Kaggle"
+  ],
+
+  "dc:date": "2020-03-16/2022-06-02",
+
+  "dc:type": "Dataset",
+
+  "dc:format": [
+    "text/csv",
+    "application/json",
+    "application/pdf",
+    "text/plain"
+  ],
+
+  "dc:identifier": "https://www.kaggle.com/datasets/allen-institute-for-ai/CORD-19-research-challenge",
+
+  "dc:source": "Scholarly articles and preprints on COVID-19 and coronaviruses collected from sources such as PubMed, PubMed Central, the World Health Organization, bioRxiv, and medRxiv, aggregated and curated by the Allen Institute for AI.",
+
+  "dc:language": "en",
+
+  "dc:relation": [
+    "https://pages.semanticscholar.org/coronavirus-research",
+    "https://registry.opendata.aws/cord-19/",
+    "https://github.com/allenai/cord19",
+    "https://aclanthology.org/2020.nlpcovid19-acl.1.pdf"
+  ],
+
+  "dc:coverage": "Global scientific literature on COVID-19 and related coronavirus research up to the final CORD-19 release on 2022-06-02.",
+
+  "dc:rights": "The CORD-19 dataset is provided as an open resource for COVID-19 research. Specific licensing and reuse conditions are defined in the LICENSE and documentation provided by the Allen Institute for AI and associated data sources. Users must review and comply with the license terms for each included article.",
+
+  "dcterms:temporal": {
+    "@value": "2019-12/2022-06",
+    "@type": "xsd:string"
+  },
+
+  "dcterms:spatial": "Global",
+
+  "schema:contactPoint": {
+    "@type": "schema:ContactPoint",
+    "schema:contactType": "dataset curator",
+    "schema:name": "Allen Institute for AI (AI2)",
+    "schema:email": "partnerships@allenai.org"
+  }
+}

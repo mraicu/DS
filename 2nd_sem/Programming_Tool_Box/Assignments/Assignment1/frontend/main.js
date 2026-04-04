@@ -1,5 +1,6 @@
 const app = document.getElementById("app");
 const page = document.body.dataset.page || "about";
+const API_BASE_URL = "http://127.0.0.1:8000/api";
 
 function createSection(id, title, subtitle) {
   const section = document.createElement("section");
@@ -15,13 +16,13 @@ function createSection(id, title, subtitle) {
   header.appendChild(heading);
   section.appendChild(header);
 
-  if (subtitle){
+  if (subtitle) {
     const sub = document.createElement("p");
     sub.className = "section-subtitle";
     sub.textContent = subtitle;
     header.appendChild(sub);
   }
-  
+
   return section;
 }
 
@@ -65,11 +66,7 @@ function createCard(title, meta, details) {
 }
 
 function buildAboutSection(data) {
-  const section = createSection(
-    "about",
-    "About Me",
-    "A quick snapshot of who I am."
-  );
+  const section = createSection("about", "About Me", "A quick snapshot of who I am.");
 
   const layout = document.createElement("div");
   layout.className = "about-grid";
@@ -104,9 +101,7 @@ function buildAboutSection(data) {
 
   const highlightWrap = document.createElement("div");
   highlightWrap.className = "tag-row";
-  data.person.highlights.forEach((item) =>
-    highlightWrap.appendChild(createTag(item))
-  );
+  data.person.highlights.forEach((item) => highlightWrap.appendChild(createTag(item)));
 
   hero.appendChild(name);
   hero.appendChild(role);
@@ -129,36 +124,20 @@ function buildAboutSection(data) {
 }
 
 function buildCareerSection(data) {
-  const section = createSection(
-    "career",
-    "Experience and Education",
-  );
+  const section = createSection("career", "Experience and Education");
 
   const grid1 = document.createElement("div");
   grid1.className = "card-grid";
 
   data.education.forEach((item) => {
-    grid1.appendChild(
-      createCard(
-        item.title,
-        `${item.organization} - ${item.period}`,
-        item.details
-      )
-    );
+    grid1.appendChild(createCard(item.title, `${item.organization} - ${item.period}`, item.details));
   });
-
 
   const grid2 = document.createElement("div");
   grid2.className = "card-grid";
 
   data.experience.forEach((item) => {
-    grid2.appendChild(
-      createCard(
-        item.title,
-        `${item.organization} - ${item.period}`,
-        item.details
-      )
-    );
+    grid2.appendChild(createCard(item.title, `${item.organization} - ${item.period}`, item.details));
   });
 
   section.appendChild(grid2);
@@ -168,11 +147,7 @@ function buildCareerSection(data) {
 }
 
 function buildHobbiesSection(data) {
-  const section = createSection(
-    "hobbies",
-    "Hobbies and Passions",
-    "Activities that keep me balanced."
-  );
+  const section = createSection("hobbies", "Hobbies and Passions", "Activities that keep me balanced.");
 
   const list = document.createElement("div");
   list.className = "hobby-grid";
@@ -196,12 +171,47 @@ function buildHobbiesSection(data) {
   return section;
 }
 
-if (page === "about") {
-  app.appendChild(buildAboutSection(profileData));
-} else if (page === "career") {
-  app.appendChild(buildCareerSection(profileData));
-} else if (page === "hobbies") {
-  app.appendChild(buildHobbiesSection(profileData));
-} else {
-  app.appendChild(buildAboutSection(profileData));
+function renderMessage(message) {
+  const section = createSection("status", "Status");
+  const text = document.createElement("p");
+  text.textContent = message;
+  section.appendChild(text);
+  app.appendChild(section);
 }
+
+async function fetchApi(path) {
+  const response = await fetch(`${API_BASE_URL}${path}`);
+  if (!response.ok) {
+    throw new Error(`API request failed with status ${response.status}`);
+  }
+  return response.json();
+}
+
+async function renderPage() {
+  try {
+    if (page === "about") {
+      const data = await fetchApi("/about");
+      app.appendChild(buildAboutSection(data));
+      return;
+    }
+
+    if (page === "career") {
+      const data = await fetchApi("/career");
+      app.appendChild(buildCareerSection(data));
+      return;
+    }
+
+    if (page === "hobbies") {
+      const data = await fetchApi("/hobbies");
+      app.appendChild(buildHobbiesSection(data));
+      return;
+    }
+
+    const data = await fetchApi("/about");
+    app.appendChild(buildAboutSection(data));
+  } catch (error) {
+    renderMessage(`Unable to load data from API. ${error.message}`);
+  }
+}
+
+renderPage();

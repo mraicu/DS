@@ -58,7 +58,7 @@ INSERT INTO person (
 VALUES (
     'Raicu Maria',
     'Machine Learning Engineer & Data Science Student',
-    TO_DATE('0x-0x-2003', 'DD-MM-YYYY'),
+    TO_DATE('05-02-2003', 'DD-MM-YYYY'),
     'Cluj-Napoca, Romania',
     ''
 );

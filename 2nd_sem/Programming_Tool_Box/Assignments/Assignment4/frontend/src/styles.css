@@ -1,0 +1,172 @@
+:root {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #1a1a1a;
+  background: #f4f6f8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.page {
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 1.25rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+}
+
+.auth-page {
+  display: grid;
+  place-items: center;
+  background: linear-gradient(160deg, #edf2ff, #f9fbff);
+}
+
+.auth-card {
+  max-width: 420px;
+  width: 100%;
+}
+
+.form-grid {
+  display: grid;
+  gap: 0.85rem;
+}
+
+label {
+  display: grid;
+  gap: 0.35rem;
+  font-size: 0.94rem;
+}
+
+input {
+  border: 1px solid #ccd4df;
+  border-radius: 8px;
+  padding: 0.6rem 0.7rem;
+}
+
+button {
+  background: #1f6feb;
+  color: #fff;
+  border: 0;
+  border-radius: 8px;
+  padding: 0.65rem 0.95rem;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.65;
+  cursor: default;
+}
+
+.text-button {
+  margin-top: 0.75rem;
+  background: transparent;
+  color: #1f6feb;
+  text-decoration: underline;
+  padding: 0;
+}
+
+.dashboard-page {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.85rem;
+  margin-bottom: 1rem;
+}
+
+.two-columns {
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+}
+
+.predict-card h2 {
+  margin-top: 0;
+}
+
+.dataset-card h2,
+.dataset-card h3 {
+  margin-top: 0;
+}
+
+.dataset-actions {
+  display: grid;
+  gap: 0.75rem;
+  margin: 1rem 0;
+}
+
+.inline-action {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.inline-action input {
+  width: 120px;
+}
+
+.table-wrap {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+}
+
+th,
+td {
+  border: 1px solid #d7dce3;
+  padding: 0.45rem 0.55rem;
+  text-align: left;
+  white-space: nowrap;
+}
+
+th {
+  background: #f2f5f9;
+}
+
+.error {
+  color: #b42318;
+}
+
+.prediction-result {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.hint {
+  color: #4b5563;
+  margin-top: 0;
+}
+
+@media (max-width: 700px) {
+  .page {
+    padding: 1rem;
+  }
+
+  .topbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+}

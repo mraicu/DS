@@ -1,0 +1,12 @@
+fastapi==0.115.12
+uvicorn[standard]==0.34.2
+psycopg2-binary==2.9.10
+python-jose==3.3.0
+passlib[bcrypt]==1.7.4
+pydantic==2.11.4
+python-multipart==0.0.20
+joblib==1.4.2
+pandas==2.2.3
+numpy==2.2.5
+scikit-learn
+python-dotenv==1.0.1

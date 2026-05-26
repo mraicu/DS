@@ -1,15 +1,22 @@
 import { FormEvent, useEffect, useState } from "react";
 
 import {
+  CategoricalEncoding,
+  ColumnProfile,
+  DatasetConfigResponse,
+  MLAlgorithmType,
+  MLStateResponse,
+  dropMissingRows,
+  getDatasetConfig,
   getDatasetDescribe,
   getDatasetDtypes,
   getDatasetHead,
   getDatasetShape,
   getDatasetTail,
-  getSummary,
-  predictScore,
-  PredictionRequest,
-  SummaryResponse,
+  getMLState,
+  predictWithModel,
+  trainModel,
+  uploadDataset,
 } from "../api";
 
 type DashboardPageProps = {
@@ -17,58 +24,126 @@ type DashboardPageProps = {
   onLogout: () => void;
 };
 
-const initialForm: PredictionRequest = {
-  social_support: 1,
-  healthy_life_expectancy: 1,
-  log_gdp_per_capita: 1,
-  freedom: 1,
-};
-
-const fieldLabels: Record<keyof PredictionRequest, string> = {
-  social_support: "Social support",
-  healthy_life_expectancy: "Healthy life expectancy",
-  log_gdp_per_capita: "Log of GDP per capita",
-  freedom: "Freedom",
-};
-
-const fieldRanges: Record<keyof PredictionRequest, { min: number; max: number }> = {
-  social_support: { min: 1, max: 155 },
-  healthy_life_expectancy: { min: 1, max: 150 },
-  log_gdp_per_capita: { min: 1, max: 152 },
-  freedom: { min: 1, max: 155 },
-};
+function buildInputDefaults(featureProfiles: ColumnProfile[]): Record<string, string> {
+  const values: Record<string, string> = {};
+  featureProfiles.forEach((profile) => {
+    values[profile.name] = profile.is_categorical ? profile.sample_values[0] ?? "" : "";
+  });
+  return values;
+}
 
 export function DashboardPage({ session, onLogout }: DashboardPageProps) {
-  const [summary, setSummary] = useState<SummaryResponse | null>(null);
   const [shape, setShape] = useState<{ rows: number; columns: number } | null>(null);
+  const [datasetConfig, setDatasetConfig] = useState<DatasetConfigResponse | null>(null);
+  const [mlState, setMlState] = useState<MLStateResponse | null>(null);
   const [tableRows, setTableRows] = useState<Record<string, unknown>[]>([]);
   const [tableTitle, setTableTitle] = useState("Dataset preview");
   const [nHead, setNHead] = useState(5);
   const [nTail, setNTail] = useState(5);
-  const [form, setForm] = useState<PredictionRequest>(initialForm);
-  const [prediction, setPrediction] = useState<number | null>(null);
-  const [error, setError] = useState("");
   const [datasetError, setDatasetError] = useState("");
+  const [uploadMessage, setUploadMessage] = useState("");
+  const [isUploading, setIsUploading] = useState(false);
+  const [isCleaningDataset, setIsCleaningDataset] = useState(false);
+  const [selectedAlgorithm, setSelectedAlgorithm] = useState<MLAlgorithmType>("regression");
+  const [selectedFeatures, setSelectedFeatures] = useState<string[]>([]);
+  const [targetColumn, setTargetColumn] = useState("");
+  const [categoricalEncoding, setCategoricalEncoding] = useState<CategoricalEncoding>("one_hot");
+  const [trainError, setTrainError] = useState("");
+  const [trainMessage, setTrainMessage] = useState("");
+  const [isTraining, setIsTraining] = useState(false);
+  const [dynamicInputs, setDynamicInputs] = useState<Record<string, string>>({});
+  const [dynamicPrediction, setDynamicPrediction] = useState<string | number | null>(null);
+  const [dynamicPredictionError, setDynamicPredictionError] = useState("");
+  const [isPredictingDynamic, setIsPredictingDynamic] = useState(false);
+
+  async function refreshDatasetState() {
+    const [shapeResponse, configResponse, mlStateResponse] = await Promise.all([
+      getDatasetShape(session.token),
+      getDatasetConfig(session.token),
+      getMLState(session.token),
+    ]);
+    setShape(shapeResponse);
+    setDatasetConfig(configResponse);
+    setMlState(mlStateResponse);
+    if (!mlStateResponse.trained_model) {
+      setDynamicPrediction(null);
+      setDynamicPredictionError("");
+    }
+  }
 
   useEffect(() => {
-    Promise.all([getSummary(session.token), getDatasetShape(session.token)])
-      .then(([summaryResponse, shapeResponse]) => {
-        setSummary(summaryResponse);
-        setShape(shapeResponse);
-      })
-      .catch(() => {
-        onLogout();
-      });
+    refreshDatasetState().catch(() => {
+      onLogout();
+    });
   }, [session.token, onLogout]);
 
-  async function handlePredict(event: FormEvent<HTMLFormElement>) {
+  useEffect(() => {
+    if (!mlState) {
+      return;
+    }
+
+    const availableColumns = new Set(mlState.columns.map((column) => column.name));
+    setSelectedFeatures((previous) => previous.filter((column) => availableColumns.has(column)));
+    setTargetColumn((previous) => (previous && availableColumns.has(previous) ? previous : ""));
+  }, [mlState]);
+
+  useEffect(() => {
+    if (targetColumn && selectedFeatures.includes(targetColumn)) {
+      setTargetColumn("");
+    }
+  }, [selectedFeatures, targetColumn]);
+
+  useEffect(() => {
+    if (mlState?.trained_model) {
+      setDynamicInputs(buildInputDefaults(mlState.trained_model.feature_profiles));
+    }
+  }, [mlState?.trained_model]);
+
+  async function handleUpload(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    setError("");
+    setDatasetError("");
+    setUploadMessage("");
+    setTrainMessage("");
+
+    const formData = new FormData(event.currentTarget);
+    const file = formData.get("dataset");
+    if (!(file instanceof File) || file.size === 0) {
+      setDatasetError("Choose a CSV file before uploading");
+      return;
+    }
+
+    setIsUploading(true);
     try {
-      const result = await predictScore(session.token, form);
-      setPrediction(result.predicted_score);
+      const uploadResponse = await uploadDataset(session.token, file);
+      setDatasetConfig(uploadResponse);
+      await refreshDatasetState();
+      setTableRows([]);
+      setTableTitle("Dataset preview");
+      setUploadMessage(`Loaded ${uploadResponse.dataset_name} as the active dataset`);
+      event.currentTarget.reset();
     } catch (err) {
-      setError(err instanceof Error ? err.message : "Prediction failed");
+      setDatasetError(err instanceof Error ? err.message : "Failed to upload dataset");
+    } finally {
+      setIsUploading(false);
+    }
+  }
+
+  async function handleDropMissingRows() {
+    setDatasetError("");
+    setUploadMessage("");
+    setTrainMessage("");
+    setIsCleaningDataset(true);
+    try {
+      const result = await dropMissingRows(session.token);
+      setDatasetConfig(result);
+      await refreshDatasetState();
+      setTableRows([]);
+      setTableTitle("Dataset preview");
+      setUploadMessage(`Removed ${result.removed_rows} rows with empty values from ${result.dataset_name}`);
+    } catch (err) {
+      setDatasetError(err instanceof Error ? err.message : "Failed to remove empty rows");
+    } finally {
+      setIsCleaningDataset(false);
     }
   }
 
@@ -116,7 +191,74 @@ export function DashboardPage({ session, onLogout }: DashboardPageProps) {
     }
   }
 
+  function toggleFeature(column: string) {
+    setSelectedFeatures((previous) =>
+      previous.includes(column) ? previous.filter((value) => value !== column) : [...previous, column],
+    );
+  }
+
+  async function handleTrainModel(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    setTrainError("");
+    setTrainMessage("");
+    setDynamicPrediction(null);
+    setDynamicPredictionError("");
+
+    if (selectedFeatures.length === 0) {
+      setTrainError("Choose at least one feature column");
+      return;
+    }
+
+    if (selectedAlgorithm !== "clustering" && !targetColumn) {
+      setTrainError("Choose a target column for regression or classification");
+      return;
+    }
+
+    setIsTraining(true);
+    try {
+      const result = await trainModel(session.token, {
+        algorithm_type: selectedAlgorithm,
+        feature_columns: selectedFeatures,
+        target_column: selectedAlgorithm === "clustering" ? null : targetColumn,
+        categorical_encoding: categoricalEncoding,
+      });
+      setMlState((previous) =>
+        previous
+          ? {
+              ...previous,
+              trained_model: result.trained_model,
+            }
+          : previous,
+      );
+      setDynamicInputs(buildInputDefaults(result.trained_model.feature_profiles));
+      setTrainMessage(result.message);
+    } catch (err) {
+      setTrainError(err instanceof Error ? err.message : "Model training failed");
+    } finally {
+      setIsTraining(false);
+    }
+  }
+
+  async function handleDynamicPrediction(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    setDynamicPrediction(null);
+    setDynamicPredictionError("");
+    setIsPredictingDynamic(true);
+    try {
+      const result = await predictWithModel(session.token, { values: dynamicInputs });
+      setDynamicPrediction(result.prediction);
+    } catch (err) {
+      setDynamicPredictionError(err instanceof Error ? err.message : "Prediction failed");
+    } finally {
+      setIsPredictingDynamic(false);
+    }
+  }
+
   const tableColumns = tableRows.length > 0 ? Object.keys(tableRows[0]) : [];
+  const datasetColumns = mlState?.columns ?? [];
+  const selectedFeatureProfiles = datasetColumns.filter((column) => selectedFeatures.includes(column.name));
+  const hasCategoricalSelection = selectedFeatureProfiles.some((column) => column.is_categorical);
+  const trainedModel = mlState?.trained_model ?? null;
 
   return (
     <main className="page dashboard-page">
@@ -130,28 +272,29 @@ export function DashboardPage({ session, onLogout }: DashboardPageProps) {
         <button onClick={onLogout}>Log out</button>
       </header>
 
-      <section className="stats-grid">
-        <article className="card">
-          <h3>Total records</h3>
-          <p>{summary?.records ?? "..."}</p>
-        </article>
-        <article className="card">
-          <h3>Average score</h3>
-          <p>{summary?.average_score ?? "..."}</p>
-        </article>
-        <article className="card">
-          <h3>Top country</h3>
-          <p>{summary ? `${summary.top_country} (${summary.top_score})` : "..."}</p>
-        </article>
-      </section>
-
       <section className="card dataset-card">
         <h2>Dataset Tools</h2>
+        <p>
+          Active dataset: <strong>{datasetConfig?.dataset_name ?? "..."}</strong>{" "}
+          {datasetConfig && (datasetConfig.is_default_dataset ? "(default)" : "(uploaded)")}
+        </p>
         <p>
           Rows: <strong>{shape?.rows ?? "..."}</strong> | Columns: <strong>{shape?.columns ?? "..."}</strong>
         </p>
 
+        <form onSubmit={handleUpload} className="upload-row">
+          <input type="file" name="dataset" accept=".csv,text/csv" />
+          <button type="submit" disabled={isUploading}>
+            {isUploading ? "Uploading..." : "Upload CSV"}
+          </button>
+        </form>
+        {uploadMessage && <p className="success">{uploadMessage}</p>}
+
         <div className="dataset-actions">
+          <button type="button" onClick={handleDropMissingRows} disabled={isCleaningDataset}>
+            {isCleaningDataset ? "Removing empty rows..." : "Remove empty rows"}
+          </button>
+
           <button type="button" onClick={showDtypes}>
             Show columns and types
           </button>
@@ -201,37 +344,143 @@ export function DashboardPage({ session, onLogout }: DashboardPageProps) {
         {datasetError && <p className="error">{datasetError}</p>}
       </section>
 
-      <section className="card predict-card">
-        <h2>Predict Happiness Score</h2>
-        <p>Adjust the indicators and estimate the happiness score.</p>
-        <p className="hint">Use values within the ranges shown for each field.</p>
+      <section className="card ml-card">
+        <h2>AI Model Studio</h2>
+        <p>Select features, choose an algorithm, train a model on the active dataset, and use it for predictions.</p>
 
-        <form onSubmit={handlePredict} className="form-grid two-columns">
-          {Object.entries(form).map(([key, value]) => (
-            <label key={key}>
-              {fieldLabels[key as keyof PredictionRequest]} (
-              {fieldRanges[key as keyof PredictionRequest].min} - {fieldRanges[key as keyof PredictionRequest].max})
-              <input
-                type="number"
-                step="1"
-                min={fieldRanges[key as keyof PredictionRequest].min}
-                max={fieldRanges[key as keyof PredictionRequest].max}
-                value={value}
-                onChange={(event) =>
-                  setForm((prev) => ({
-                    ...prev,
-                    [key]: Number(event.target.value),
-                  }))
-                }
-              />
+        <form onSubmit={handleTrainModel} className="form-grid">
+          <label>
+            Algorithm type
+            <select value={selectedAlgorithm} onChange={(event) => setSelectedAlgorithm(event.target.value as MLAlgorithmType)}>
+              <option value="regression">Regression</option>
+              <option value="classification">Classification</option>
+              <option value="clustering">Clustering</option>
+            </select>
+          </label>
+
+          <label>
+            Categorical preprocessing
+            <select
+              value={categoricalEncoding}
+              onChange={(event) => setCategoricalEncoding(event.target.value as CategoricalEncoding)}
+              disabled={!hasCategoricalSelection}
+            >
+              <option value="one_hot">get_dummies</option>
+              <option value="ordinal">OrdinalEncoder.fit_transform</option>
+            </select>
+          </label>
+
+          {selectedAlgorithm !== "clustering" && (
+            <label>
+              Target column
+              <select value={targetColumn} onChange={(event) => setTargetColumn(event.target.value)}>
+                <option value="">Select a target column</option>
+                {datasetColumns
+                  .filter((column) => !selectedFeatures.includes(column.name))
+                  .map((column) => (
+                    <option key={column.name} value={column.name}>
+                      {column.name}
+                    </option>
+                  ))}
+              </select>
             </label>
-          ))}
+          )}
 
-          <button type="submit">Predict</button>
+          <div>
+            <h3>Feature columns</h3>
+            <div className="feature-grid">
+              {datasetColumns.map((column) => (
+                <label key={column.name} className="feature-option">
+                  <input
+                    type="checkbox"
+                    checked={selectedFeatures.includes(column.name)}
+                    onChange={() => toggleFeature(column.name)}
+                  />
+                  <span>{column.name}</span>
+                  <small>
+                    {column.dtype} | missing: {column.missing_count} | unique: {column.unique_count}
+                  </small>
+                </label>
+              ))}
+            </div>
+          </div>
+
+          {trainError && <p className="error">{trainError}</p>}
+          {trainMessage && <p className="success">{trainMessage}</p>}
+
+          <button type="submit" disabled={isTraining}>
+            {isTraining ? "Training model..." : "Train model"}
+          </button>
         </form>
 
-        {prediction !== null && <p className="prediction-result">Predicted score: {prediction}</p>}
-        {error && <p className="error">{error}</p>}
+        {trainedModel && (
+          <>
+            <div className="trained-model-summary">
+              <h3>Trained model</h3>
+              <p>
+                Type: <strong>{trainedModel.algorithm_type}</strong> | Features:{" "}
+                <strong>{trainedModel.feature_columns.join(", ")}</strong>
+              </p>
+              <p>
+                Target: <strong>{trainedModel.target_column ?? "No target"}</strong> | Encoding:{" "}
+                <strong>{trainedModel.categorical_encoding}</strong>
+              </p>
+              <p>
+                Rows used for training: <strong>{trainedModel.training_rows}</strong>
+              </p>
+            </div>
+
+            <form onSubmit={handleDynamicPrediction} className="form-grid two-columns">
+              {trainedModel.feature_profiles.map((profile) => (
+                <label key={profile.name}>
+                  {profile.name}
+                  {profile.is_categorical ? (
+                    <select
+                      value={dynamicInputs[profile.name] ?? ""}
+                      onChange={(event) =>
+                        setDynamicInputs((previous) => ({
+                          ...previous,
+                          [profile.name]: event.target.value,
+                        }))
+                      }
+                    >
+                      <option value="">Select a value</option>
+                      {profile.sample_values.map((value) => (
+                        <option key={value} value={value}>
+                          {value}
+                        </option>
+                      ))}
+                    </select>
+                  ) : (
+                    <input
+                      type="number"
+                      step="any"
+                      value={dynamicInputs[profile.name] ?? ""}
+                      onChange={(event) =>
+                        setDynamicInputs((previous) => ({
+                          ...previous,
+                          [profile.name]: event.target.value,
+                        }))
+                      }
+                    />
+                  )}
+                </label>
+              ))}
+
+              <button type="submit" disabled={isPredictingDynamic}>
+                {isPredictingDynamic ? "Predicting..." : "Predict"}
+              </button>
+            </form>
+
+            {dynamicPrediction !== null && (
+              <p className="prediction-result">
+                Result: {String(dynamicPrediction)}
+                {trainedModel.algorithm_type === "clustering" ? " cluster" : ""}
+              </p>
+            )}
+            {dynamicPredictionError && <p className="error">{dynamicPredictionError}</p>}
+          </>
+        )}
       </section>
     </main>
   );

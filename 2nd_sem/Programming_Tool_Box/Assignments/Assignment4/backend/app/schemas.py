@@ -1,3 +1,5 @@
+from typing import Literal
+
 from pydantic import BaseModel, Field
 
 
@@ -28,3 +30,14 @@ class PredictionRequest(BaseModel):
 
 class PredictionResponse(BaseModel):
     predicted_score: float
+
+
+class MLTrainRequest(BaseModel):
+    algorithm_type: Literal["regression", "classification", "clustering"]
+    feature_columns: list[str] = Field(min_length=1)
+    target_column: str | None = None
+    categorical_encoding: Literal["one_hot", "ordinal"] = "one_hot"
+
+
+class DynamicPredictionRequest(BaseModel):
+    values: dict[str, str | int | float | bool | None]

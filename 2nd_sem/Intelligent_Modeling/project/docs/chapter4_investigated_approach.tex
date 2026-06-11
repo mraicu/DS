@@ -1,0 +1,118 @@
+
+\chapter{Investigated approach}
+\label{chapter:proposedApproach}
+
+\section{Proposed approach - methodology}
+\label{section:ProposedApproach}
+
+Describe your approach!
+
+\begin{itemize}
+	\item Exploratory data Analysis
+	\item Training and testing the model
+	\item Validation and comparisons
+\end{itemize}
+
+Describe in reasonable detail the algorithm you are using to address this problem. A psuedocode description of the algorithm you are using is frequently useful. Trace through a concrete example, showing how your algorithm processes this example. The example should be complex enough to illustrate all of the important aspects of the problem but simple enough to be easily understood. If possible, an intuitively meaningful example is better than one with meaningless symbols.
+
+
+\section{Numerical validation}
+\label{section:numericalValidaion}
+
+
+Explain the experimental methodology and the numerical results obtained with your approach and the state of art approache(s).
+
+Try to perform a comparison of several approaches.
+
+Statistical validation of the results.
+
+
+\subsection{Methodology}
+\label{section:methodology}
+
+\begin{itemize}
+	\item What are criteria you are using to evaluate your method? 
+	\item What specific hypotheses does your experiment test? Describe the experimental methodology that you used. 
+	\item What are the dependent and independent variables? 
+	\item What is the training/test data that was used, and why is it realistic or interesting? Exactly what performance data did you collect and how are you presenting and analyzing it? Comparisons to competing methods that address the same problem are particularly useful.
+\end{itemize}
+
+\subsection{Data}
+\label{section:data}
+
+
+The primary dataset utilized in this study is the LIDC-IDRI (Lung Image Database Consortium and Image Database Resource Initiative) dataset. As a premier public resource for lung nodule analysis, it provides a comprehensive collection of thoracic CT scans, unblinded radiologist annotations, and clinical diagnostic records. Because nodules are frequently reviewed by multiple radiologists, the dataset captures inherent clinical variability and uncertainty, making it highly representative of real-world diagnostic scenarios. For this analysis, the data is divided into three interconnected components: the raw imaging data, the clinical diagnosis records and the nodule annotations.
+
+\subsubsection{Radiological Imaging Data}
+The imaging data consists of 3D CT scans stored as raw DICOM files. The pipeline recursively extracts files with the "CT" modality and reconstructs the full axial chest volume by sorting the 2D slices along the Z-axis (utilizing spatial attributes such as ImagePositionPatient). Each 2D slice has a standard image size of 512x512 pixels. To ensure accurate radiodensity representations, the raw pixel arrays are converted into standardized Hounsfield Units (HU) using the RescaleSlope and RescaleIntercept metadata.
+
+\subsubsection{Radiologist Nodule Annotations}
+Accompanying the DICOM files are XML annotation files documenting findings from radiologist reading sessions. These annotations describe the location, size, shape, internal structure, margin sharpness, and visual appearance of the identified lesions. A critical characteristic extracted for this study is the nodule texture, which indicates how dense or solid a lesion appears on a CT scan.
+
+The original texture scores in the dataset range from 1 to 5, each corresponding to the following labels, in order: non-solid, mostly non-solid, part-solid, mostly solid, solid
+
+To reduce noise and facilitate comparative analysis, these scores were mapped into three distinct radiological categories:
+
+Ground-Glass (Scores 1 \& 2): Lighter, less dense regions.
+
+Part-Solid (Score 3): Lesions containing both dense and non-dense regions.
+
+Solid (Scores 4 \& 5): Denser, brighter regions.
+
+\subsubsection{Clinical Diagnosis Data}
+A supplementary clinical dataset provides patient- and nodule-level diagnostic context across 157 patient records. This component contains variables detailing clinical outcomes, including the overall diagnosis result, tumor location, and the specific method used to confirm the diagnosis (e.g., biopsy, surgical resection, radiological follow-up, or progression). For metastatic cases, the primary tumor site is recorded across 112 unique classes (e.g., non-small cell lung cancer, melanoma, colon cancer).
+% Missing values are present within this dataset—a common occurrence in medical records—which were systematically evaluated and addressed during the Exploratory Data Analysis (EDA) phase.
+
+
+\subsection{Data Processing and Feature Engineering}
+To structure the data for modeling, the annotation data was aggregated into two distinct relational tables.
+
+One is a detailed table with one row for each texture annotation, containing the following information: Patient ID, Nodule ID, Reading session index, Texture score and Texture category.
+
+The other table is a patient-level summary table that combines all annotations for a patient and stores the following data: Total number of texture annotations, Number of ground-glass nodules, Number of part-solid nodules, Number of solid nodules, Dominant texture category.
+
+The dominant texture category is the category that appears most often for that patient. For example, if most nodules for a patient are solid, then the patient is labeled as having a dominant solid texture pattern.
+
+\subsection{Machine Learning Target Variables}
+Predicting exact medical diagnoses across highly granular classes is challenging, particularly given the sample size constraints of the clinical dataset. To create robust predictive models, the clinical labels were simplified into three distinct binary and multiclass targets, focusing on the most critical medical distinctions:
+
+\textbf{Malignancy prediction}: 0 for benign (derived from "benign/non-malignant" labels) and 1 for malignant (derived from "malignant primary lung cancer" and "malignant metastatic lesion" labels);
+
+\textbf{Progression prediction}: 0 for stable (nodule remained stable for at least two years) and 1 for progressive (documented progression);
+
+\textbf{Radiological subtype}: as previously mentioned: 0 for solid, 1 for part-solid and 2 for ground-glass
+
+This makes the classification problem easier and helps the model focus on the most important medical distinction: whether the nodule is dangerous or not.
+
+Overall, the dataset is valuable because it combines CT images, radiologist annotations, and diagnosis information. This supports both exploratory analysis and predictive modeling. Furthermore, the presence of missing values, annotation variability, and multiple expert opinions makes the dataset more representative of real clinical scenarios.
+
+\subsection{EDA}
+
+After extracting and inspecting the data, several properties relevant to modeling were identified.
+
+Regarding texture distribution, solid nodules are by far the most frequent category, followed by ground-glass and part-solid. This class imbalance is consistent with clinical literature and must be accounted for during training. Furthermore, most CT series contain only one or two annotated nodules. The distribution of nodule counts per scan is heavily right-skewed, meaning a small number of scans account for a disproportionately large share of the total annotations.
+
+Because each patient may have been reviewed by up to four radiologists in separate reading sessions, the same nodule can receive different texture scores from different readers. This inter-reader variability was partially mitigated at the patient level by applying a majority-vote approach to establish a single "dominant texture category" across all annotations.
+
+In the diagnosis dataset, the nodule-level columns for higher-indexed nodules (e.g., nodules 4 and 5) contain a massive fraction of missing values, reflecting the fact that most patients have fewer than four annotated nodules. Additionally, the $primary_tumor_site$ column was excluded as a feature; it applies specifically to metastatic cases and suffers from extreme high cardinality (containing over 110 unique free-text classes for just 157 patients), rendering it too fragmented for robust model training.
+
+Finally, both derived classification targets exhibit class imbalance. The malignancy target is moderately skewed toward the benign class, while the progression target is severely unbalanced, with stable cases substantially outnumbering progressive ones. 
+% This inherent distribution heavily motivated the use of the F1-score and AUC-ROC as the primary evaluation metrics rather than raw accuracy.
+
+
+
+
+
+\subsection{Results}
+\label{section:results}
+
+Present the quantitative results of your experiments. Graphical data presentation such as graphs and histograms are frequently better than tables. What are the basic differences revealed in the data. Are they statistically significant?
+
+\section{Discussion}
+\label{section:discussion}
+
+\begin{itemize}
+	\item Is your hypothesis supported? 
+	\item What conclusions do the results support about the strengths and weaknesses of your method compared to other methods? 
+	\item How can the results be explained in terms of the underlying properties of the algorithm and/or the data. 
+\end{itemize}

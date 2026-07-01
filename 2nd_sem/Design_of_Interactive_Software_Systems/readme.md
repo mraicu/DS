@@ -16,3 +16,8 @@ To obtain a grade of **10**:
 
 - Prepare an extra report on a subject provided by the instructor.
 - Present the report during the semester at a chosen presentation date.
+
+
+## Exam 
+
+- is optional and is intended for students who choose not to develop the project.
